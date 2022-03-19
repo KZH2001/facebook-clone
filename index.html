@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+  <link rel="icon" href="svg/logo.svg">
+  
+    <link rel="stylesheet" href="facebook.css">
+    <link rel="stylesheet" href="script.js">
+    <link href="//db.onlinewebfonts.com/c/0c5e6f133b0b25edfed47aca4ab57676?family=Segoe+UI+Historic" rel="stylesheet" type="text/css"/>
+    
+    <!-- choose one -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+</head>
+
+<!-- <body style="height: 80vh;"> -->
+
+
+
+<!-- start navbar -->
+<nav class="nav">
+
+<div class="left">
+
+    <svg id="logo" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4" fill="url(#jsc_s_2)" height="40" width="40"><defs><linearGradient x1="50%" x2="50%" y1="97.0782153%" y2="0%" id="jsc_s_2"><stop offset="0%" stop-color="#0062E0"></stop><stop offset="100%" stop-color="#19AFFF"></stop></linearGradient><linearGradient x1="50%" x2="50%" y1="97.0782153%" y2="0%" id="jsc_s_2"><stop offset="0%" stop-color="#0062E0"></stop><stop offset="100%" stop-color="#19AFFF"></stop></linearGradient></defs><path d="M15 35.8C6.5 34.3 0 26.9 0 18 0 8.1 8.1 0 18 0s18 8.1 18 18c0 8.9-6.5 16.3-15 17.8l-1-.8h-4l-1 .8z" fill="url(&quot;#jsc_s_2&quot;)"></path><path class="p361ku9c" d="M25 23l.8-5H21v-3.5c0-1.4.5-2.5 2.7-2.5H26V7.4c-1.3-.2-2.7-.4-4-.4-4.1 0-7 2.5-7 7v4h-4.5v5H15v12.7c1 .2 2 .3 3 .3s2-.1 3-.3V23h4z" fill="#FFFFFF"></path></svg>    
+
+
+ <div class="search-box">
+    <svg id="lens" viewBox="0 0 16 16" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv gl3lb2sf hhz5lgdu"><g fill-rule="evenodd" transform="translate(-448 -544)"><g fill-rule="nonzero"><path d="M10.743 2.257a6 6 0 1 1-8.485 8.486 6 6 0 0 1 8.485-8.486zm-1.06 1.06a4.5 4.5 0 1 0-6.365 6.364 4.5 4.5 0 0 0 6.364-6.363z" transform="translate(448 544)"></path><path d="M10.39 8.75a2.94 2.94 0 0 0-.199.432c-.155.417-.23.849-.172 1.284.055.415.232.794.54 1.103a.75.75 0 0 0 1.112-1.004l-.051-.057a.39.39 0 0 1-.114-.24c-.021-.155.014-.356.09-.563.031-.081.06-.145.08-.182l.012-.022a.75.75 0 1 0-1.299-.752z" transform="translate(448 544)"></path><path d="M9.557 11.659c.038-.018.09-.04.15-.064.207-.077.408-.112.562-.092.08.01.143.034.198.077l.041.036a.75.75 0 0 0 1.06-1.06 1.881 1.881 0 0 0-1.103-.54c-.435-.058-.867.018-1.284.175-.189.07-.336.143-.433.2a.75.75 0 0 0 .624 1.356l.066-.027.12-.061z" transform="translate(448 544)"></path><path d="m13.463 15.142-.04-.044-3.574-4.192c-.599-.703.355-1.656 1.058-1.057l4.191 3.574.044.04c.058.059.122.137.182.24.249.425.249.96-.154 1.41l-.057.057c-.45.403-.986.403-1.411.154a1.182 1.182 0 0 1-.24-.182zm.617-.616.444-.444a.31.31 0 0 0-.063-.052c-.093-.055-.263-.055-.35.024l.208.232.207-.206.006.007-.22.257-.026-.024.033-.034.025.027-.257.22-.007-.007zm-.027-.415c-.078.088-.078.257-.023.35a.31.31 0 0 0 .051.063l.205-.204-.233-.209z" transform="translate(448 544)"></path></g></g></svg> 
+    <input type="text" placeholder="Search Facebook" name="" id="" class="form">
+
+</div>
+</div>
+
+<!-- start nav-mid  -->
+<div class="center">
+   
+
+   
+    <div class="icon-box">
+        <svg id="home" viewBox="0 0 28 28" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 aaxa7vy3" height="28" width="28"><path d="M25.825 12.29C25.824 12.289 25.823 12.288 25.821 12.286L15.027 2.937C14.752 2.675 14.392 2.527 13.989 2.521 13.608 2.527 13.248 2.675 13.001 2.912L2.175 12.29C1.756 12.658 1.629 13.245 1.868 13.759 2.079 14.215 2.567 14.479 3.069 14.479L5 14.479 5 23.729C5 24.695 5.784 25.479 6.75 25.479L11 25.479C11.552 25.479 12 25.031 12 24.479L12 18.309C12 18.126 12.148 17.979 12.33 17.979L15.67 17.979C15.852 17.979 16 18.126 16 18.309L16 24.479C16 25.031 16.448 25.479 17 25.479L21.25 25.479C22.217 25.479 23 24.695 23 23.729L23 14.479 24.931 14.479C25.433 14.479 25.921 14.215 26.132 13.759 26.371 13.245 26.244 12.658 25.825 12.29"></path></svg>
+    </div>
+
+    <hr class="line">
+
+
+
+
+    <div class="icon-box1">
+         <svg id="pages" viewBox="0 0 28 28" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv" height="28" width="28"><path d="M5.75 4A.75.75 0 015 3.25v-1a.75.75 0 011.5 0v1a.75.75 0 01-.75.75zm.75 11.251a.75.75 0 01-1.5 0V8.749a.75.75 0 011.5 0v6.502zM5.75 28a.75.75 0 01-.75-.75v-6.5a.75.75 0 011.5 0v6.5a.75.75 0 01-.75.75zm15.737-16.234L23.214 6.5H9.5v11h13.715l-1.728-5.266a.749.749 0 010-.468zM4.75 5h19.5a.75.75 0 01.713.986l-1.974 6.006 1.974 6.023a.75.75 0 01-.713.985H4.75a.75.75 0 010-1.502L8 17.5v-11H4.75a.749.749 0 110-1.5z"></path></svg></id>   
+         </div> 
+
+  
+
+
+
+
+    <div class="icon-box2">
+        <div class="noti-box">
+         
+       <span class="noti-text">9+</span>
+       
+    </div>
+    <svg id="watch" viewBox="0 0 28 28" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv" height="28" width="28"><path d="M8.75 25.25C8.336 25.25 8 24.914 8 24.5 8 24.086 8.336 23.75 8.75 23.75L19.25 23.75C19.664 23.75 20 24.086 20 24.5 20 24.914 19.664 25.25 19.25 25.25L8.75 25.25ZM17.163 12.846 12.055 15.923C11.591 16.202 11 15.869 11 15.327L11 9.172C11 8.631 11.591 8.297 12.055 8.576L17.163 11.654C17.612 11.924 17.612 12.575 17.163 12.846ZM21.75 20.25C22.992 20.25 24 19.242 24 18L24 6.5C24 5.258 22.992 4.25 21.75 4.25L6.25 4.25C5.008 4.25 4 5.258 4 6.5L4 18C4 19.242 5.008 20.25 6.25 20.25L21.75 20.25ZM21.75 21.75 6.25 21.75C4.179 21.75 2.5 20.071 2.5 18L2.5 6.5C2.5 4.429 4.179 2.75 6.25 2.75L21.75 2.75C23.821 2.75 25.5 4.429 25.5 6.5L25.5 18C25.5 20.071 23.821 21.75 21.75 21.75Z"></path></svg>
+    
+    </div>
+
+
+
+<div class="icon-box3">
+    <svg id="gaming" viewBox="0 0 28 28" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv" height="28" width="28"><path d="M23.5 9.5H10.25a.75.75 0 00-.75.75v7c0 .414.336.75.75.75H17v5.5H4.5v-19h19v5zm0 14h-5v-6.25a.75.75 0 00-.75-.75H11V11h12.5v12.5zm1.5.25V4.25C25 3.561 24.439 3 23.75 3H4.25C3.561 3 3 3.561 3 4.25v19.5c0 .689.561 1.25 1.25 1.25h19.5c.689 0 1.25-.561 1.25-1.25z"></path></svg>
+
+</div>  
+
+</div>
+<!-- end nav-mid -->
+
+
+
+<!-- start nav-right -->
+<div class="right">
+
+
+<div class="profile">
+    <div class="profile-image">
+        <p class="account-name">Kyaw</p>
+    </div>
+</div>   
+
+
+
+<div class="menu">
+     <svg id="menu-image" viewBox="0 0 44 44" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 fzdkajry jnigpg78 odw8uiq3"><circle cx="7" cy="7" r="6"></circle><circle cx="22" cy="7" r="6"></circle><circle cx="37" cy="7" r="6"></circle><circle cx="7" cy="22" r="6"></circle><circle cx="22" cy="22" r="6"></circle><circle cx="37" cy="22" r="6"></circle><circle cx="7" cy="37" r="6"></circle><circle cx="22" cy="37" r="6"></circle><circle cx="37" cy="37" r="6"></circle></svg>   
+</div>
+
+
+
+ <div class="messenger">
+    <div class="messenger-noti">
+        <span class="messenger-notitext">4</span>
+    </div>
+    <svg id="messenger-image" viewBox="0 0 28 28" alt="" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 fzdkajry" height="20" width="20"><path d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z"></path></svg>
+</div>
+
+
+
+<div class="notification">
+    <div class="noti-noti">
+        <div class="noti-notitext">5</div>
+    </div>
+    
+        <svg id="noti-image" viewBox="0 0 28 28" alt="" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 fzdkajry" height="20" width="20"><path d="M7.847 23.488C9.207 23.488 11.443 23.363 14.467 22.806 13.944 24.228 12.581 25.247 10.98 25.247 9.649 25.247 8.483 24.542 7.825 23.488L7.847 23.488ZM24.923 15.73C25.17 17.002 24.278 18.127 22.27 19.076 21.17 19.595 18.724 20.583 14.684 21.369 11.568 21.974 9.285 22.113 7.848 22.113 7.421 22.113 7.068 22.101 6.79 22.085 4.574 21.958 3.324 21.248 3.077 19.976 2.702 18.049 3.295 17.305 4.278 16.073L4.537 15.748C5.2 14.907 5.459 14.081 5.035 11.902 4.086 7.022 6.284 3.687 11.064 2.753 15.846 1.83 19.134 4.096 20.083 8.977 20.506 11.156 21.056 11.824 21.986 12.355L21.986 12.356 22.348 12.561C23.72 13.335 24.548 13.802 24.923 15.73Z"></path></svg>
+ 
+</div>
+
+
+ <div class="account">
+    <div class="account-image">
+        <svg viewBox="0 0 20 20" width="20px" height="20px" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 fzdkajry jnigpg78 odw8uiq3"><path d="M10 14a1 1 0 0 1-.755-.349L5.329 9.182a1.367 1.367 0 0 1-.205-1.46A1.184 1.184 0 0 1 6.2 7h7.6a1.18 1.18 0 0 1 1.074.721 1.357 1.357 0 0 1-.2 1.457l-3.918 4.473A1 1 0 0 1 10 14z"></path></svg>
+    </div>
+</div>  
+
+
+
+</div> 
+<!-- end nav-right -->
+
+</nav>
+<!-- end navbar -->
+
+<hr class="nav-line">
+
+<!-- start main body -->
+<div class="main-body">
+
+
+    <!-- start left-shortcut -->
+    <section class="left-shortcut">
+
+
+
+
+
+
+
+        <div class="left1">
+    
+                <img id="left-image" src="images/profile.jpg" alt="">
+     
+            <div class="left-text">Kyaw Zaw Hein</div>
+        </div>
+    
+    
+        <div class="left2">
+          <img id="left-image" src="https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/S0U5ECzYUSu.png?_nc_eui2=AeEGhcoYnQYbXEyTGe3RnXPbqfpKmA4GtxSp-kqYDga3FAUNaUTSl8e2KaO3sklZOQuFfPoZCiiOMcx7j-fRdnUv" alt="">
+    
+            <div class="left-text">Friends</div>
+        </div>
+
+
+    
+        <div class="left4">
+            <img id="left-image" src="https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/PrjLkDYpYbH.png?_nc_eui2=AeHVnBY1iFfjuI46C87Gg3S3Z3xAUM5_bWpnfEBQzn9tam76A0HlaXD5hXOho0CKMrrTrhQWsUzM2jJpkV2D7gwi" alt="">
+    
+            <div class="left-text">Groups</div>
+        </div>
+    
+    
+    
+        <div class="left3">
+           <img id="left-image" src="https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/kyCAf2jbZvF.png?_nc_eui2=AeFmpPJsZnKr0RU7ngtSmU4ntEPFOzh_t-u0Q8U7OH-363rlc-a8qY6NoCBsTeIH8IIrGFK6h0MkJiJ_MaVY9TUI" alt="">
+    
+            <div class="left-text">Pages</div>
+        </div>
+    
+    
+    
+       
+
+        <div class="left6">
+        <img id="left-image6-kid" src="https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/1Xvrz50fHMF.png?_nc_eui2=AeHJjFM0ukPW3ySLKYFsWLYTk7y5SDbTwiqTvLlINtPCKpgo-gbSOWhX3UKdAOFnSkiCEWHJoyG24lRdhDa2yG0_" alt="">
+            <div class="left-text">Messenger Kids</div>
+        </div>
+         
+
+    
+
+    
+        <div class="left5">
+            <img id="left-image" src="https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/duk32h44Y31.png?_nc_eui2=AeHPf2eLs2YbNgitVF-A3pMc2NRDTXGHJ53Y1ENNcYcnnWv7y9IyuLnddDdld8Kxnlu92H4zkLQrLAkXeOuy8XFX" alt="">
+              <div class="left-text-watch1">Watch</div>
+              <div class="left-image-watch2"></div>
+              <div class="left-text-watch3">9+ new videos</div>
+          </div>
+
+
+          <div onclick="read_more_less()" id="left7">
+              <div class="see-circle">
+                <svg id="left7-image" viewBox="0 0 16 16" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 fzdkajry jnigpg78 odw8uiq3"><g fill-rule="evenodd" transform="translate(-448 -544)"><path fill-rule="nonzero" d="M452.707 549.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L456 552.586l-3.293-3.293z"></path></g></svg>
+              </div>
+                <div class="left-text">See more</div>
+            </div>
+
+<span id="more">
+            <div class="left3">
+                <img id="left-image" src="https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/kyCAf2jbZvF.png?_nc_eui2=AeFmpPJsZnKr0RU7ngtSmU4ntEPFOzh_t-u0Q8U7OH-363rlc-a8qY6NoCBsTeIH8IIrGFK6h0MkJiJ_MaVY9TUI" alt="">
+         
+                 <div class="left-text">Pages</div>
+             </div>
+         
+
+             <div class="left3">
+                <img id="left-image" src="https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/kyCAf2jbZvF.png?_nc_eui2=AeFmpPJsZnKr0RU7ngtSmU4ntEPFOzh_t-u0Q8U7OH-363rlc-a8qY6NoCBsTeIH8IIrGFK6h0MkJiJ_MaVY9TUI" alt="">
+             
+                 <div class="left-text">Pages</div>
+             </div>
+             
+         
+             <div class="left3">
+                <img id="left-image" src="https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/kyCAf2jbZvF.png?_nc_eui2=AeFmpPJsZnKr0RU7ngtSmU4ntEPFOzh_t-u0Q8U7OH-363rlc-a8qY6NoCBsTeIH8IIrGFK6h0MkJiJ_MaVY9TUI" alt="">
+             
+                 <div class="left-text">Pages</div>
+             </div>
+             
+         
+             
+             <div class="left3">
+                <img id="left-image" src="https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/kyCAf2jbZvF.png?_nc_eui2=AeFmpPJsZnKr0RU7ngtSmU4ntEPFOzh_t-u0Q8U7OH-363rlc-a8qY6NoCBsTeIH8IIrGFK6h0MkJiJ_MaVY9TUI" alt="">
+             
+                 <div class="left-text">Pages</div>
+             </div>
+             
+             
+            </span>
+
+
+
+            
+      
+          <div class="left-shortcutname">
+      
+          </div>
+          <span class="youshort">Your Shortcuts</span>
+
+
+          <div class="short1">
+              <img id="short-image" src="images/short1.jpg" alt="">
+              <div class="short-text">
+                  Laravel Basic (BMPS)
+              </div>
+          </div>
+
+
+
+          <div class="short2">
+            <img id="short-image" src="images/short2.jpg" alt="">
+            <div class="short-text1">
+                Web Design Crazy Full Course Journy - BMPS
+            </div>
+        </div>
+
+        <div class="short3">
+            <img id="short-image" src="images/short3.jpg" alt="">
+            <div class="short-text3">
+                MMS IT SWD
+            </div>
+        </div>
+
+        <div class="short4">
+            <img id="short-image" src="images/short5.jpg"alt="">
+            <div class="short-text3">
+                MMS IT Laravel
+            </div>
+        </div>
+
+        <div class="short4">
+            <img id="short-image" src="images/bwd2.png"alt="">
+            <div class="short-text3">
+                New BWD 2
+            </div>
+        </div>
+
+        <div class="left7">
+            <div class="see-circle">
+              <svg id="left7-image" viewBox="0 0 16 16" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 fzdkajry jnigpg78 odw8uiq3"><g fill-rule="evenodd" transform="translate(-448 -544)"><path fill-rule="nonzero" d="M452.707 549.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L456 552.586l-3.293-3.293z"></path></g></svg>
+            </div>
+              <div class="left-text">See more</div>
+          </div>
+          <div class="terms">
+              <span class="terms-text">Privacy</span>
+              <span class="terms-dot">·</span>
+              <span class="terms-text1">Terms</span>
+              <span class="terms-dot">·</span>
+              <span class="terms-text1">Advertising</span>
+              <span class="terms-dot">·</span>
+              <span class="terms-text1">Ad Choices</span>
+             <img id="terms-text2" src="images/arrow.png" alt=""><br><br>
+          </div>
+
+
+          <div class="term1">
+
+            <span class="terms1-dot1">·</span>
+            <span class="terms1-text">Cookies</span>
+            <span class="terms1-dot">·</span>
+            <span class="terms1-text1"> More</span>
+            <span class="terms1-dot">·</span>
+            <span class="terms1-text2">Meta</span>
+            <span class="terms1-text1">&#169</span>
+            <span class="terms1-text1">2021</span>
+        </div>
+
+
+
+
+
+
+
+    
+        
+    
+    
+    
+    
+        </section> 
+        <!-- end left-shortcut -->
+
+
+
+
+        
+
+
+    <!-- start mid-center -->
+
+
+    <section class="mid-center">
+
+
+        <!-- start myday -->
+        <section class="myday">
+            <card class="card1">
+        
+          <div class="card1-image"></div>  
+          <div class="add-story">
+           <svg id="plus-icon" viewBox="0 0 20 20" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 p361ku9c jnigpg78 odw8uiq3"><g fill-rule="evenodd" transform="translate(-446 -350)"><g fill-rule="nonzero"><path d="M95 201.5h13a1 1 0 1 0 0-2H95a1 1 0 1 0 0 2z" transform="translate(354.5 159.5)"></path><path d="M102.5 207v-13a1 1 0 1 0-2 0v13a1 1 0 1 0 2 0z" transform="translate(354.5 159.5)"></path></g></g></svg>  
+
+          </div> 
+          <p class="create-story-name">Create Story</p>
+            </card>
+
+
+
+            <card class="card2">
+            
+                <div class="myday-owner-1"></div>  
+             
+                <div class="card2-image">
+             
+                </div>
+                <div class="card2-name">Khin Wint Wah</div> 
+            </card>
+
+
+
+            <card class="card3">
+                <div class="myday-owner-2"></div>
+                <div class="card3-image">
+            
+                </div>
+                <div class="card3-name">Wutt Hmone Shwe Yi</div> 
+            </card>
+
+
+
+            <card class="card4">
+                <div class="myday-owner-3"></div>
+                <div class="card4-image">
+                </div>
+                <div class="card4-name">Poe Mamhe Thar</div>
+            </card>
+
+
+            <card class="card5">
+                <div class="myday-owner-4"></div>
+                <div class="card5-image">
+           
+                </div>
+                <div class="card5-name">May Myint Mo</div> 
+            </card>
+
+            <div class="all-stories">
+                <svg id="right-arrow" viewBox="0 0 20 20" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv jnigpg78 odw8uiq3"><g fill-rule="evenodd" transform="translate(-446 -350)"><g fill-rule="nonzero"><path d="M101.751 211.001a1 1 0 0 0 1.415 1.415l5.208-5.209a1 1 0 0 0 0-1.414l-5.208-5.209A1 1 0 0 0 101.75 202l4.501 4.501-4.5 4.501z" transform="translate(355 153.5)"></path><path d="M94.334 207.5h12.812a1 1 0 1 0 0-2H94.333a1 1 0 1 0 0 2z" transform="translate(355 153.5)"></path></g></g></svg>
+
+            </div>
+        </section>
+        <!-- end myday -->
+
+
+<!-- start status  -->
+<div class="main-status">
+        <section class="status-top">
+        
+            <div class="status-profile"></div>
+            <div class="status-border">
+                <span class="status-text">What's on your mind, Kyaw?</span>
+            </div>
+            </section>
+            <hr class="line-status">
+    
+            <div class="live-video">
+                <svg id="live-icon" viewBox="0 0 24 24" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 i2fa72qc rgmg9uty b73ngqbp"><g fill-rule="evenodd" transform="translate(-444 -156)"><g><path d="M113.029 2.514c-.363-.088-.746.014-1.048.234l-2.57 1.88a.999.999 0 0 0-.411.807v8.13a1 1 0 0 0 .41.808l2.602 1.901c.219.16.477.242.737.242.253 0 .508-.077.732-.235.34-.239.519-.65.519-1.065V3.735a1.25 1.25 0 0 0-.971-1.22m-20.15 6.563c.1-.146 2.475-3.578 5.87-3.578 3.396 0 5.771 3.432 5.87 3.578a.749.749 0 0 1 0 .844c-.099.146-2.474 3.578-5.87 3.578-3.395 0-5.77-3.432-5.87-3.578a.749.749 0 0 1 0-.844zM103.75 19a3.754 3.754 0 0 0 3.75-3.75V3.75A3.754 3.754 0 0 0 103.75 0h-10A3.754 3.754 0 0 0 90 3.75v11.5A3.754 3.754 0 0 0 93.75 19h10z" transform="translate(354 158.5)"></path><path d="M98.75 12c1.379 0 2.5-1.121 2.5-2.5S100.129 7 98.75 7a2.503 2.503 0 0 0-2.5 2.5c0 1.379 1.121 2.5 2.5 2.5" transform="translate(354 158.5)"></path></g></g></svg>
+                <span class="live-text">Live video</span>
+    
+     
+            </div>
+            <div class="photo-video">
+                <svg id="video-icon" viewBox="0 0 24 24" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 n90h9ftp rgmg9uty b73ngqbp"><g fill-rule="evenodd" transform="translate(-444 -156)"><g><path d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z" transform="translate(352 156.5)"></path><path fill-rule="nonzero" d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z" transform="translate(352 156.5)"></path></g></g></svg>
+                <span class="video-text">Photo/video</span>
+    
+            </div>
+            <div class="feeling">
+                <svg id="feeling-icon" viewBox="0 0 24 24" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 ky11obwa rgmg9uty b73ngqbp"><g fill-rule="evenodd" transform="translate(-444 -156)"><g><path d="M107.285 13c.49 0 .841.476.712.957-.623 2.324-2.837 4.043-5.473 4.043-2.636 0-4.85-1.719-5.473-4.043-.13-.48.222-.957.712-.957h9.522z" transform="translate(353.5 156.5)"></path><path fill-rule="nonzero" d="M114.024 11.5c0 6.351-5.149 11.5-11.5 11.5s-11.5-5.149-11.5-11.5S96.173 0 102.524 0s11.5 5.149 11.5 11.5zm-2 0a9.5 9.5 0 1 0-19 0 9.5 9.5 0 0 0 19 0z" transform="translate(353.5 156.5)"></path><path d="M99.524 8.5c0 .829-.56 1.5-1.25 1.5s-1.25-.671-1.25-1.5.56-1.5 1.25-1.5 1.25.671 1.25 1.5m8.5 0c0 .829-.56 1.5-1.25 1.5s-1.25-.671-1.25-1.5.56-1.5 1.25-1.5 1.25.671 1.25 1.5m-.739 4.5h-9.522c-.49 0-.841.476-.712.957.623 2.324 2.837 4.043 5.473 4.043 2.636 0 4.85-1.719 5.473-4.043.13-.48-.222-.957-.712-.957m-2.165 2c-.667.624-1.592 1-2.596 1a3.799 3.799 0 0 1-2.596-1h5.192" transform="translate(353.5 156.5)"></path></g></g></svg>
+                <span class="feeling-text">Feeling/activity</span>
+            </div>
+        </div>
+    <!-- end status -->
+
+
+
+
+
+        <!-- start create room -->
+        <section class="chat">
+            <div class="create-room">
+                <div class="create-room-border">
+                    <i id="crateroom-icon" data-visualcompletion="css-img" class="hu5pjgll" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/5zaboDASSye.png?_nc_eui2=AeGRIQ6koIRpbui_FUqX9I6FBQyVXafYdJoFDJVdp9h0mr7GKTxEW5q0YE1p5rJbjY0eLxkjEFprOmYd3jA3NB3d');background-position:0 -219px;background-size:auto;width:24px;height:24px;background-repeat:no-repeat;display:inline-block"></i>
+                    <span class="room-text">Create room</span>
+
+                </div>
+                <div class="room-chat1"></div>
+                <div class="room-chat2"></div>
+                <div class="room-chat3"></div>
+                <div class="room-chat4"></div>
+                <div class="room-chat5"></div>
+                <div class="room-chat6"></div>
+            </div>
+            <div class="create-arrow">
+                <svg id="create-arrow-svg" viewBox="0 0 20 20" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv rgmg9uty b73ngqbp"><path d="M7.8 4.53 13.273 10 7.8 15.47a.75.75 0 0 0 1.061 1.06l6-6a.751.751 0 0 0 0-1.06l-6-6A.75.75 0 0 0 7.8 4.53z"></path></svg>
+            </div>
+        </section>
+        <!-- end create room -->
+
+
+        <!-- start newsfeed -->
+        <section class="newsfeed">
+
+
+            <!-- start newsfeed part1 -->
+                    <div class="newsfeed-part1">
+                    <div class="poe-user"></div>
+                    <div class="poe-name">Poe Mamhe Thar</div>
+                    <div class="poe-date">September 3  </div>
+                    <div class="three-dot">
+                        <svg id="three-dot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv jnigpg78 odw8uiq3"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg>
+                    </div>
+                    <div class="poe-global-dot">·</div>
+                    <svg id="poe-earth" viewBox="0 0 16 16" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv cyypbtt7 fwizqjfa" title="Shared with Public"><title>Shared with Public</title><g fill-rule="evenodd" transform="translate(-448 -544)"><g><path d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434" transform="translate(354 143.5)"></path><path d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096" transform="translate(354 143.5)"></path><path fill-rule="nonzero" d="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z" transform="translate(354 143.5)"></path></g></g></svg> 
+                    <div class="poe-status">
+                        <img class="purple-heart" src="images/purple-heart.png" alt="">
+           
+                        <a id="poe-status-link" href="https://fb.watch/7NThubP5LJ/">https://fb.watch/7NThubP5LJ/</a>
+                    </div>
+                    <div class="poe-status-image">
+                
+                    </div>
+                    <div class="poe-react-box">
+                        <div class="poe-react">
+                            <img id="poe-react-heart" class="j1lvzwm4" height="18" role="presentation" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23FF6680'/%3e%3cstop offset='100%25' stop-color='%23E61739'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0.710144928 0 0 0 0 0 0 0 0 0 0.117780134 0 0 0 0.349786932 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 100 16A8 8 0 008 0z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41'/%3e%3c/g%3e%3c/svg%3e" width="18">   
+                            <img id="poe-react-like" class="j1lvzwm4" height="18" role="presentation" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%2318AFFF'/%3e%3cstop offset='100%25' stop-color='%230062DF'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0 0 0 0 0 0.299356041 0 0 0 0 0.681187726 0 0 0 0.3495684 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 00-8 8 8 8 0 1016 0 8 8 0 00-8-8z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725a.73.73 0 01.089.546c-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666zM3.6 7h.8a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-.8a.6.6 0 01-.6-.6V7.6a.6.6 0 01.6-.6z'/%3e%3c/g%3e%3c/svg%3e" width="18">
+                            <span class="poe-react-text">5.7K</span>
+
+    
+    
+                        </div>
+                        <d  iv class="poe-comment">
+                            <div class="poe-comment-text1">243 Comments</div>
+                            <div class="poe-comment-text2">62 Shares</div>
+                        </d>
+                        <hr class="line-react">
+               
+                </div>
+    
+                <div class="locosh">
+                    <div class="lo">
+                        <img id="love-react-poe" alt="Love" class="" height="18" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23FF6680'/%3e%3cstop offset='100%25' stop-color='%23E61739'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0.710144928 0 0 0 0 0 0 0 0 0 0.117780134 0 0 0 0.349786932 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 100 16A8 8 0 008 0z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41'/%3e%3c/g%3e%3c/svg%3e" width="18">
+                        <span class="love-text-color">Love</span>
+    
+                    </div>
+                    <div class="co">
+                        <svg id="poe-comment" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="50" height="50"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g transform="translate(1.462,1.462) scale(0.983,0.983)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g fill="#a8abaf" stroke="#cccccc" stroke-width="3" stroke-linejoin="round"><path d="M147.92,13.76c9.44656,0 17.2,7.75344 17.2,17.2v82.56c0,9.44656 -7.75344,17.2 -17.2,17.2h-77.185c-8.45219,19.90094 -25.18187,27.52 -39.775,27.52c-1.505,-0.05375 -2.80844,-1.08844 -3.19812,-2.53969c-0.38969,-1.45125 0.20156,-2.99656 1.47812,-3.80281c4.54188,-2.72781 6.97406,-6.04687 8.2775,-9.9975c1.06156,-3.21156 1.11531,-7.04125 0.645,-11.18h-14.0825c-9.44656,0 -17.2,-7.75344 -17.2,-17.2v-82.56c0,-9.44656 7.75344,-17.2 17.2,-17.2zM13.76,30.96v82.56c0,5.6975 4.6225,10.32 10.32,10.32h17.2c1.63938,0.02688 3.02344,1.19594 3.3325,2.795c1.10188,6.04688 1.24969,11.98625 -0.5375,17.415c-0.71219,2.17688 -1.98875,4.20594 -3.3325,6.1275c9.93031,-2.53969 19.48438,-9.48687 24.8325,-24.08c0.49719,-1.35719 1.78719,-2.2575 3.225,-2.2575h79.12c5.6975,0 10.32,-4.6225 10.32,-10.32v-82.56c0,-5.6975 -4.6225,-10.32 -10.32,-10.32h-123.84c-5.6975,0 -10.32,4.6225 -10.32,10.32z"></path></g><path d="M0,172v-172h172v172z" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path><g fill="#a8abaf" stroke="none" stroke-width="1" stroke-linejoin="miter"><path d="M24.08,13.76c-9.44656,0 -17.2,7.75344 -17.2,17.2v82.56c0,9.44656 7.75344,17.2 17.2,17.2h14.0825c0.47031,4.13875 0.41656,7.96844 -0.645,11.18c-1.30344,3.95063 -3.73562,7.26969 -8.2775,9.9975c-1.27656,0.80625 -1.86781,2.35156 -1.47812,3.80281c0.38969,1.45125 1.69312,2.48594 3.19812,2.53969c14.59313,0 31.32281,-7.61906 39.775,-27.52h77.185c9.44656,0 17.2,-7.75344 17.2,-17.2v-82.56c0,-9.44656 -7.75344,-17.2 -17.2,-17.2zM24.08,20.64h123.84c5.6975,0 10.32,4.6225 10.32,10.32v82.56c0,5.6975 -4.6225,10.32 -10.32,10.32h-79.12c-1.43781,0 -2.72781,0.90031 -3.225,2.2575c-5.34812,14.59313 -14.90219,21.54031 -24.8325,24.08c1.34375,-1.92156 2.62031,-3.95062 3.3325,-6.1275c1.78719,-5.42875 1.63938,-11.36812 0.5375,-17.415c-0.30906,-1.59906 -1.69312,-2.76812 -3.3325,-2.795h-17.2c-5.6975,0 -10.32,-4.6225 -10.32,-10.32v-82.56c0,-5.6975 4.6225,-10.32 10.32,-10.32z"></path></g><path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path></g></g></svg>
+                        <span class="poe-comment-text">Comment</span>
+                    </div>
+    
+    
+                    <div class="sh">
+                        <svg id="poe-share" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+               
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#b0b3b8"><path d="M99.33,37.84c-1.73344,0.215 -3.02344,1.69313 -3.01,3.44v24.295c-39.60031,1.20938 -60.9525,22.17188 -71.4875,43c-10.68281,21.11031 -11.05906,41.69656 -11.0725,42.355v0.215v0.215c-0.05375,1.89469 1.43781,3.49375 3.3325,3.5475c1.89469,0.05375 3.49375,-1.43781 3.5475,-3.3325v-0.215c0.02688,-0.3225 0.79281,-10.73656 10.6425,-21.8225c9.675,-10.87094 28.55469,-21.83594 65.0375,-22.575v23.7575c0,1.31688 0.7525,2.52625 1.94844,3.10406c1.19594,0.57781 2.60688,0.41656 3.64156,-0.41656l55.04,-44.72c0.81969,-0.65844 1.29,-1.63937 1.29,-2.6875c0,-1.04812 -0.47031,-2.02906 -1.29,-2.6875l-55.04,-44.72c-0.72562,-0.59125 -1.65281,-0.86 -2.58,-0.7525zM103.2,48.4825l46.1175,37.5175l-46.1175,37.5175v-20.3175c0,-1.89469 -1.54531,-3.44 -3.44,-3.44c-40.43344,0 -62.22906,12.42969 -73.6375,25.2625c-0.43,0.48375 -0.67187,0.91375 -1.075,1.3975c1.45125,-4.73 3.35938,-9.7825 5.9125,-14.835c10.03781,-19.83375 29.19969,-39.345 68.8,-39.345c1.89469,0 3.44,-1.54531 3.44,-3.44z"></path></g></g></svg>
+                        <span class="poe-share-text">Share</span>
+    
+                    </div>
+                </div>
+                <hr class="line-react1">
+    
+                <div class="poe-most">
+                    <span class="poe-most-text">Most Relevant</span>
+                    <div class="poe-down-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#a6a9ad"><path d="M86,131.86667c-1.46773,0 -2.93547,-0.56187 -4.05347,-1.67987l-57.33333,-57.33333c-1.63973,-1.63973 -2.1328,-4.10507 -1.24413,-6.24933c0.88293,-2.14427 2.98133,-3.53747 5.2976,-3.53747h114.66667c2.31627,0 4.41467,1.3932 5.2976,3.53747c0.88867,2.14427 0.3956,4.6096 -1.24413,6.24933l-57.33333,57.33333c-1.118,1.118 -2.58573,1.67987 -4.05347,1.67987z"></path></g></g></svg>            
+    
+                    </div>
+                </div>
+                <div class="poe-write-comment">
+                    <div class="cmt-profile"></div>
+                    <div class="i-write-comment-poe">
+                        <input id="poe-text-comment" type="text" placeholder="Write a comment...">
+                    </div>
+                  <div class="end-border">
+                    <div class="poe-emo">
+                
+                        <svg id="emo-smile" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#b0b3b8"><path d="M86,6.88c-0.17805,0.00415 -0.35551,0.02212 -0.53078,0.05375c-43.4081,0.29358 -78.58922,35.58971 -78.58922,79.06625c0,43.6583 35.4617,79.12 79.12,79.12c43.6583,0 79.12,-35.4617 79.12,-79.12c0,-43.47198 -35.17396,-78.76536 -78.57578,-79.06625c-0.17969,-0.03233 -0.36167,-0.0503 -0.54422,-0.05375zM86,13.76c39.94058,0 72.24,32.29942 72.24,72.24c0,39.94058 -32.29942,72.24 -72.24,72.24c-39.94058,0 -72.24,-32.29942 -72.24,-72.24c0,-39.94058 32.29942,-72.24 72.24,-72.24zM58.48,61.92c-5.69958,0 -10.32,4.62042 -10.32,10.32c0,5.69958 4.62042,10.32 10.32,10.32c5.69958,0 10.32,-4.62042 10.32,-10.32c0,-5.69958 -4.62042,-10.32 -10.32,-10.32zM113.52,61.92c-5.69958,0 -10.32,4.62042 -10.32,10.32c0,5.69958 4.62042,10.32 10.32,10.32c5.69958,0 10.32,-4.62042 10.32,-10.32c0,-5.69958 -4.62042,-10.32 -10.32,-10.32zM41.13219,99.71969c-1.27749,0.04213 -2.42632,0.78902 -2.98323,1.9395c-0.55691,1.15048 -0.43009,2.51487 0.32932,3.543c0,0 17.99505,25.51781 47.52172,25.51781c29.52667,0 47.52172,-25.51781 47.52172,-25.51781c1.10578,-1.54735 0.74781,-3.69813 -0.79953,-4.8039c-1.54735,-1.10578 -3.69813,-0.74781 -4.8039,0.79953c0,0 -16.40495,22.64219 -41.91828,22.64219c-25.51333,0 -41.91828,-22.64219 -41.91828,-22.64219c-0.6674,-0.96274 -1.77882,-1.51971 -2.94953,-1.47813z"></path></g></g></svg>
+    
+                    </div>
+                    <div class="poe-camera">
+    
+    
+                        <svg id="poe-camera-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#a4a6aa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-camera"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+    
+    
+                    </div>
+                    <div class="poe-gif">
+                        <svg class="poe-gif-icon" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 1080 1080" enable-background="new 0 0 1080 1080" xml:space="preserve">
+                        <path fill="none" stroke="#A4A6AA" stroke-width="20" stroke-miterlimit="10" d="M532,540H321.81c-13.07-3.3-40.83-21.31-41.33-50.79
+                            l0.16-141.08c0.5,1.26,0.03,0.52,0,0c-1.53-25.2,8.21-52.54,27.59-56.13c0.67-0.12-0.67,0.02,0,0l224.53-1
+                            c0.59-0.02,21.84,8.92,22.32,9.31c12.19,9.8,7.84,13.11,25.24,34.83c2.85,3.56,3.89,8.64,3.89,13.54v138.61
+                            c0,6.11-2.14,11.95-5.9,16.15C561.73,521.97,548.24,540,532,540z"/>
+                        <text transform="matrix(0.9197 0 0 1 303.7041 460.0073)" fill="#808080" stroke="#A4A6AA" stroke-width="4" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="164.2782px">GIF</text>
+    
+                        </svg>
+    
+    
+    
+    
+    
+                    </div>
+                    <div class="poe-sticker">
+                        <svg class="poe-stick" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 1080 1080" enable-background="new 0 0 1080 1080" xml:space="preserve">
+                        <path fill="none" stroke="#A4A6AA" stroke-width="30" stroke-miterlimit="10" d="M671.55,678.25l-217.88,79.48
+                            c-82.38,22.99-168.4-24.68-192.14-106.47l-68.42-235.69c-23.74-81.79,23.79-166.72,106.17-189.71l237.38-66.24
+                            c82.38-22.99,168.4,24.68,188.84,92.99l68.42,235.69C811.45,575.12,738.89,642.6,671.55,678.25z"/>
+                        <path fill="none" stroke="#A4A6AA" stroke-width="2" stroke-miterlimit="10" d="M-76.6,295.06"/>
+                        <path fill="none" stroke="#A4A6AA" stroke-width="2" stroke-miterlimit="10" d="M-156.53,443.36"/>
+                        <path fill="none" stroke="#A4A6AA" stroke-width="30" stroke-miterlimit="10" d="M763.87,384.79
+                            c-119.72,167.59-115.49,70.87-186.61,327.85"/>
+                        <polygon fill="none" stroke="#A4A6AA" stroke-width="30" stroke-miterlimit="10" points="608.9,354.22 516.19,380.09 489.8,289.2 
+                            582.51,263.32 "/>
+                        <polygon fill="none" stroke="#A4A6AA" stroke-width="30" stroke-miterlimit="10" points="392.77,418.68 296.15,445.64 
+                            268.65,350.91 365.27,323.95 "/>
+                        <path fill="none" stroke="#A4A6AA" stroke-width="30" stroke-miterlimit="10" d="M471.15,622.14"/>
+                        <path fill="none" stroke="#A4A6AA" stroke-width="30" stroke-miterlimit="10" d="M577.26,632.58"/>
+                        <path stroke="#A4A6AA" stroke-width="40" stroke-miterlimit="10" d="M928.86,774.93"/>
+                        <path fill="none" stroke="#A4A6AA" stroke-width="30" stroke-miterlimit="10" d="M443.68,648.84c57.12,13.59,101.05,7.89,82.53-3.61
+                            c-21.53-13.36-136.37-40.11-158.66-36.51C349.22,611.69,389.24,635.89,443.68,648.84z"/>
+                        </svg>
+    
+                    </div>
+           
+                </div>
+                </div>
+                <div class="sayar-hein">
+         
+                    <div class="sayar-photo">
+    
+                    </div>
+                    <div class="sayar-border">
+                    <span class="sayar-name">Hein Htet Zan</span>
+                    <br>
+                    <span class="sayar-comment">meeting မှာတွေ့မယ်နော် Love U Poe</span>
+                </div>
+                <div class="sayar-ment">
+                <span class="sayar-like">Like </span>&nbsp;
+                <div class="sayar-dot1">·</div>
+                <span class="sayar-reply">Reply</span>&nbsp;
+                <div class="sayar-dot2">·</div>
+                <span class="sayar-date">  11w</span>
+                </div>
+            </div>
+            <div class="viewbox">
+            <div class="view-box">
+                <span class="view-text">View more comments</span>
+            </div>
+    
+            <div class="view-number">
+                <span class="view-number-text">1 of 238</span>
+            </div>
+    
+                </div>
+            </div>
+                <!-- end newsfeed part1 -->
+
+
+
+                <!-- start newsfeed part2 -->
+
+                <div class="newsfeed-part2">
+                    <div class="may-user"></div>
+                    <div class="may-name">May Myint Mo</div>
+                    <div class="blue">
+                        <img src="images/blue.png" width="12px" height="12px" alt="">
+                    </div>
+                    <div class="may-date">October 12 </div>
+                    <div class="three-dot">
+                        <svg id="three-dot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv jnigpg78 odw8uiq3"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg>
+                    </div>
+                    <div class="may-global-dot1"> ·</div>
+                    <svg id="may-earth" viewBox="0 0 16 16" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv cyypbtt7 fwizqjfa" title="Shared with Public"><title>Shared with Public</title><g fill-rule="evenodd" transform="translate(-448 -544)"><g><path d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434" transform="translate(354 143.5)"></path><path d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096" transform="translate(354 143.5)"></path><path fill-rule="nonzero" d="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z" transform="translate(354 143.5)"></path></g></g></svg> 
+                    <div class="may-status">
+                        <span class="may-status-text">သတိရနေမှာပါ . . .</span>
+                        <img class="red-heart" src="images/red-heart.png" alt="">
+
+      
+                    </div>
+    
+                    <div class="may-status-video">
+                        <video width="100%" height="100%" controls>
+                            <source src="/videos/may.mp4" type="video/mp4">
+              
+                        </div>
+                        <div class="may-box">
+                            <span class="may-text1">May Myint Mo Fan Club</span><br>
+                            <div class="may-text2-box">
+                                <span class="may-text2">Fan Page</span>
+                                <span class="may-dot-1">·</span>
+                                <span class="may-date2"> October 12 </span>
+                                <span class="may-dot-2">·</span>
+                                <svg id="may-earth1" viewBox="0 0 16 16" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv cyypbtt7 fwizqjfa" title="Shared with Public"><title>Shared with Public</title><g fill-rule="evenodd" transform="translate(-448 -544)"><g><path d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434" transform="translate(354 143.5)"></path><path d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096" transform="translate(354 143.5)"></path><path fill-rule="nonzero" d="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z" transform="translate(354 143.5)"></path></g></g></svg> 
+
+
+                            </div>
+           
+                            <span class="may-text3">သတိရနေမှာပါ....</span><br>
+                            <span class="may-text4">#maymyintmofanclub</span>
+                            <img class="may-icon1" src="images/mayicon1.png" alt="">
+                            <img class="may-icon2" src="images/mayicon2.png" alt="">
+                            <img class="may-icon3" src="images/mayicon3.png" alt="">
+        
+                        </div>
+
+
+                    <div class="may-react-box">
+                        <div class="may-react">
+                            <img id="may-react-heart" class="j1lvzwm4" height="18" role="presentation" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23FF6680'/%3e%3cstop offset='100%25' stop-color='%23E61739'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0.710144928 0 0 0 0 0 0 0 0 0 0.117780134 0 0 0 0.349786932 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 100 16A8 8 0 008 0z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41'/%3e%3c/g%3e%3c/svg%3e" width="18">   
+                            <img id="may-react-like" class="j1lvzwm4" height="18" role="presentation" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%2318AFFF'/%3e%3cstop offset='100%25' stop-color='%230062DF'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0 0 0 0 0 0.299356041 0 0 0 0 0.681187726 0 0 0 0.3495684 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 00-8 8 8 8 0 1016 0 8 8 0 00-8-8z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725a.73.73 0 01.089.546c-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666zM3.6 7h.8a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-.8a.6.6 0 01-.6-.6V7.6a.6.6 0 01.6-.6z'/%3e%3c/g%3e%3c/svg%3e" width="18">
+                            <span class="may-react-text">3.9K</span>
+
+
+                        </div>
+                        <div class="may-comment">
+                            <div class="may-comment-text1">221 Comments</div>
+                            <div class="may-comment-text2">158 Shares</div>
+                        </div>
+                        <hr class="may-line-react">
+
+                </div>
+
+                <div class="maylocosh">
+                    <div class="lo">
+                        <img id="love-react-poe" alt="Love" class="" height="18" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23FF6680'/%3e%3cstop offset='100%25' stop-color='%23E61739'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0.710144928 0 0 0 0 0 0 0 0 0 0.117780134 0 0 0 0.349786932 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 100 16A8 8 0 008 0z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41'/%3e%3c/g%3e%3c/svg%3e" width="18">
+                        <span class="love-text-color">Love</span>
+
+                    </div>
+                    <div class="co">
+                        <svg id="poe-comment" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="50" height="50"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g transform="translate(1.462,1.462) scale(0.983,0.983)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g fill="#a8abaf" stroke="#cccccc" stroke-width="3" stroke-linejoin="round"><path d="M147.92,13.76c9.44656,0 17.2,7.75344 17.2,17.2v82.56c0,9.44656 -7.75344,17.2 -17.2,17.2h-77.185c-8.45219,19.90094 -25.18187,27.52 -39.775,27.52c-1.505,-0.05375 -2.80844,-1.08844 -3.19812,-2.53969c-0.38969,-1.45125 0.20156,-2.99656 1.47812,-3.80281c4.54188,-2.72781 6.97406,-6.04687 8.2775,-9.9975c1.06156,-3.21156 1.11531,-7.04125 0.645,-11.18h-14.0825c-9.44656,0 -17.2,-7.75344 -17.2,-17.2v-82.56c0,-9.44656 7.75344,-17.2 17.2,-17.2zM13.76,30.96v82.56c0,5.6975 4.6225,10.32 10.32,10.32h17.2c1.63938,0.02688 3.02344,1.19594 3.3325,2.795c1.10188,6.04688 1.24969,11.98625 -0.5375,17.415c-0.71219,2.17688 -1.98875,4.20594 -3.3325,6.1275c9.93031,-2.53969 19.48438,-9.48687 24.8325,-24.08c0.49719,-1.35719 1.78719,-2.2575 3.225,-2.2575h79.12c5.6975,0 10.32,-4.6225 10.32,-10.32v-82.56c0,-5.6975 -4.6225,-10.32 -10.32,-10.32h-123.84c-5.6975,0 -10.32,4.6225 -10.32,10.32z"></path></g><path d="M0,172v-172h172v172z" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path><g fill="#a8abaf" stroke="none" stroke-width="1" stroke-linejoin="miter"><path d="M24.08,13.76c-9.44656,0 -17.2,7.75344 -17.2,17.2v82.56c0,9.44656 7.75344,17.2 17.2,17.2h14.0825c0.47031,4.13875 0.41656,7.96844 -0.645,11.18c-1.30344,3.95063 -3.73562,7.26969 -8.2775,9.9975c-1.27656,0.80625 -1.86781,2.35156 -1.47812,3.80281c0.38969,1.45125 1.69312,2.48594 3.19812,2.53969c14.59313,0 31.32281,-7.61906 39.775,-27.52h77.185c9.44656,0 17.2,-7.75344 17.2,-17.2v-82.56c0,-9.44656 -7.75344,-17.2 -17.2,-17.2zM24.08,20.64h123.84c5.6975,0 10.32,4.6225 10.32,10.32v82.56c0,5.6975 -4.6225,10.32 -10.32,10.32h-79.12c-1.43781,0 -2.72781,0.90031 -3.225,2.2575c-5.34812,14.59313 -14.90219,21.54031 -24.8325,24.08c1.34375,-1.92156 2.62031,-3.95062 3.3325,-6.1275c1.78719,-5.42875 1.63938,-11.36812 0.5375,-17.415c-0.30906,-1.59906 -1.69312,-2.76812 -3.3325,-2.795h-17.2c-5.6975,0 -10.32,-4.6225 -10.32,-10.32v-82.56c0,-5.6975 4.6225,-10.32 10.32,-10.32z"></path></g><path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path></g></g></svg>
+                        <span class="poe-comment-text">Comment</span>
+                    </div>
+
+
+                    <div class="sh">
+                        <svg id="poe-share" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#b0b3b8"><path d="M99.33,37.84c-1.73344,0.215 -3.02344,1.69313 -3.01,3.44v24.295c-39.60031,1.20938 -60.9525,22.17188 -71.4875,43c-10.68281,21.11031 -11.05906,41.69656 -11.0725,42.355v0.215v0.215c-0.05375,1.89469 1.43781,3.49375 3.3325,3.5475c1.89469,0.05375 3.49375,-1.43781 3.5475,-3.3325v-0.215c0.02688,-0.3225 0.79281,-10.73656 10.6425,-21.8225c9.675,-10.87094 28.55469,-21.83594 65.0375,-22.575v23.7575c0,1.31688 0.7525,2.52625 1.94844,3.10406c1.19594,0.57781 2.60688,0.41656 3.64156,-0.41656l55.04,-44.72c0.81969,-0.65844 1.29,-1.63937 1.29,-2.6875c0,-1.04812 -0.47031,-2.02906 -1.29,-2.6875l-55.04,-44.72c-0.72562,-0.59125 -1.65281,-0.86 -2.58,-0.7525zM103.2,48.4825l46.1175,37.5175l-46.1175,37.5175v-20.3175c0,-1.89469 -1.54531,-3.44 -3.44,-3.44c-40.43344,0 -62.22906,12.42969 -73.6375,25.2625c-0.43,0.48375 -0.67187,0.91375 -1.075,1.3975c1.45125,-4.73 3.35938,-9.7825 5.9125,-14.835c10.03781,-19.83375 29.19969,-39.345 68.8,-39.345c1.89469,0 3.44,-1.54531 3.44,-3.44z"></path></g></g></svg>
+                        <span class="poe-share-text">Share</span>
+
+                    </div>
+                </div>
+                </div>
+                <!-- end newsfeed part2 -->
+
+
+
+
+                <!-- start newsfeed part3 -->
+
+                <div class="newsfeed-part3">
+                    <div class="wutt-user"></div>
+                    <div class="wutt-name">Wutt Hmone Shwe Yi</div>
+                    <div class="wutt-date">February 10 </div>
+                    <div class="three-dot">
+                        <svg id="three-dot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv jnigpg78 odw8uiq3"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg>
+                    </div>
+                    
+                    <span class="wutt-global-dot">·</span>
+
+                    <svg id="wutt-earth" viewBox="0 0 16 16" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv cyypbtt7 fwizqjfa" title="Shared with Public"><title>Shared with Public</title><g fill-rule="evenodd" transform="translate(-448 -544)"><g><path d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434" transform="translate(354 143.5)"></path><path d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096" transform="translate(354 143.5)"></path><path fill-rule="nonzero" d="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z" transform="translate(354 143.5)"></path></g></g></svg> 
+                    <div class="may-status">
+                        <span class="may-status-text">မနေ့ညကမှ တရားစခန်းက ပြန်ရောက်ပြီး ဒီနေ့တော့ပြည်သူထဲက ပြည်သူတစ်ယောက်မို့ ပြည်သူတွေနဲ့အတူ တစ်သားတည်း ရပ်တည်ခဲ့ပါတယ်...
+                            <br>Respect Our Vote.</span>
+                            <span class="save-myanmar">#savemyanmar</span>
+      
+
+      
+                    </div>
+    
+                    <div class="wutt-status-photos">
+                        <div class="wutt1"></div>
+                        <div class="wutt2"></div>
+                        <div class="wutt3"></div>
+        
+              
+                        </div>
+       
+
+                    <div class="wutt-react-box">
+                        <div class="wutt-react">
+                            <img id="wutt-react-like" class="j1lvzwm4" height="18" role="presentation" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%2318AFFF'/%3e%3cstop offset='100%25' stop-color='%230062DF'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0 0 0 0 0 0.299356041 0 0 0 0 0.681187726 0 0 0 0.3495684 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 00-8 8 8 8 0 1016 0 8 8 0 00-8-8z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725a.73.73 0 01.089.546c-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666zM3.6 7h.8a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-.8a.6.6 0 01-.6-.6V7.6a.6.6 0 01.6-.6z'/%3e%3c/g%3e%3c/svg%3e" width="18">
+                            <img id="wutt-react-heart" class="j1lvzwm4" height="18" role="presentation" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23FF6680'/%3e%3cstop offset='100%25' stop-color='%23E61739'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0.710144928 0 0 0 0 0 0 0 0 0 0.117780134 0 0 0 0.349786932 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 100 16A8 8 0 008 0z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41'/%3e%3c/g%3e%3c/svg%3e" width="18">   
+                            <img id="wutt-react-care" class="j1lvzwm4" height="18" role="presentation" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 180 180' %3e %3cdefs%3e %3cradialGradient cx='50.001%25' cy='50%25' fx='50.001%25' fy='50%25' r='50%25' id='c'%3e %3cstop stop-color='%23F08423' stop-opacity='0' offset='0%25'/%3e %3cstop stop-color='%23F08423' stop-opacity='.34' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='50%25' cy='44.086%25' fx='50%25' fy='44.086%25' r='57.412%25' gradientTransform='matrix(-1 0 0 -.83877 1 .81)' id='d'%3e %3cstop stop-color='%23FFE874' offset='0%25'/%3e %3cstop stop-color='%23FFE368' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='10.82%25' cy='52.019%25' fx='10.82%25' fy='52.019%25' r='10.077%25' gradientTransform='matrix(.91249 .4091 -.31644 .7058 .174 .109)' id='e'%3e %3cstop stop-color='%23F28A2D' stop-opacity='.5' offset='0%25'/%3e %3cstop stop-color='%23F28A2D' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='74.131%25' cy='76.545%25' fx='74.131%25' fy='76.545%25' r='28.284%25' gradientTransform='rotate(-38.243 1.4 .537) scale(1 .40312)' id='f'%3e %3cstop stop-color='%23F28A2D' stop-opacity='.5' offset='0%25'/%3e %3cstop stop-color='%23F28A2D' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='31.849%25' cy='12.675%25' fx='31.849%25' fy='12.675%25' r='10.743%25' gradientTransform='matrix(.98371 -.17976 .03575 .19562 0 .16)' id='g'%3e %3cstop stop-color='%23D45F00' stop-opacity='.25' offset='0%25'/%3e %3cstop stop-color='%23D45F00' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='68.023%25' cy='12.637%25' fx='68.023%25' fy='12.637%25' r='12.093%25' gradientTransform='rotate(11.848 .192 .076) scale(1 .19886)' id='h'%3e %3cstop stop-color='%23D45F00' stop-opacity='.25' offset='0%25'/%3e %3cstop stop-color='%23D45F00' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='50.709%25' cy='66.964%25' fx='50.709%25' fy='66.964%25' r='87.22%25' gradientTransform='matrix(0 -.8825 1 0 -.163 1.117)' id='j'%3e %3cstop stop-color='%233B446B' offset='0%25'/%3e %3cstop stop-color='%23202340' offset='68.84%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='49.239%25' cy='66.964%25' fx='49.239%25' fy='66.964%25' r='87.22%25' gradientTransform='matrix(0 -.8825 1 0 -.177 1.104)' id='k'%3e %3cstop stop-color='%233B446B' offset='0%25'/%3e %3cstop stop-color='%23202340' offset='68.84%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='48.317%25' cy='42.726%25' fx='48.317%25' fy='42.726%25' r='29.766%25' gradientTransform='matrix(-.09519 -.96847 1.71516 -1.15488 -.204 1.389)' id='l'%3e %3cstop stop-color='%23E38200' offset='0%25'/%3e %3cstop stop-color='%23CD6700' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='50%25' cy='29.807%25' fx='50%25' fy='29.807%25' r='31.377%25' gradientTransform='matrix(.07236 -.9819 2.22613 1.12405 -.2 .454)' id='m'%3e %3cstop stop-color='%23E38200' offset='0%25'/%3e %3cstop stop-color='%23CD6700' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='73.646%25' cy='44.274%25' fx='73.646%25' fy='44.274%25' r='29.002%25' gradientTransform='scale(.92955 1) rotate(20.36 .764 .598)' id='p'%3e %3cstop stop-color='%23FF7091' stop-opacity='.7' offset='0%25'/%3e %3cstop stop-color='%23FE6D8E' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='26.749%25' cy='29.688%25' fx='26.749%25' fy='29.688%25' r='29.002%25' gradientTransform='scale(.92955 1) rotate(20.36 .278 .353)' id='q'%3e %3cstop stop-color='%23FF7091' stop-opacity='.7' offset='0%25'/%3e %3cstop stop-color='%23FE6D8E' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='23.798%25' cy='53.35%25' fx='23.798%25' fy='53.35%25' r='24.89%25' gradientTransform='matrix(-.18738 .97947 -1.25372 -.27758 .951 .449)' id='r'%3e %3cstop stop-color='%239C0600' stop-opacity='.999' offset='0%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='.94' offset='26.692%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='97.063%25' cy='54.555%25' fx='97.063%25' fy='54.555%25' r='15.021%25' gradientTransform='matrix(.8002 .50886 -.59365 1.08039 .518 -.538)' id='s'%3e %3cstop stop-color='%23C71C08' stop-opacity='.75' offset='0%25'/%3e %3cstop stop-color='%23C71C08' stop-opacity='.704' offset='53.056%25'/%3e %3cstop stop-color='%23C71C08' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='4.056%25' cy='24.23%25' fx='4.056%25' fy='24.23%25' r='13.05%25' gradientTransform='matrix(.8728 -.3441 .41218 1.20997 -.095 -.037)' id='t'%3e %3cstop stop-color='%239C0600' stop-opacity='.5' offset='0%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='.473' offset='31.614%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='74.586%25' cy='77.013%25' fx='74.586%25' fy='77.013%25' r='17.563%25' gradientTransform='matrix(.77041 .55955 -.56333 .89765 .605 -.339)' id='u'%3e %3cstop stop-color='%239C0600' stop-opacity='.999' offset='0%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='.934' offset='45.7%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='.803' offset='59.211%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='50.001%25' cy='50%25' fx='50.001%25' fy='50%25' r='51.087%25' gradientTransform='matrix(-.3809 .91219 -.97139 -.46943 1.176 .279)' id='v'%3e %3cstop stop-color='%23C71C08' stop-opacity='0' offset='0%25'/%3e %3cstop stop-color='%23C71C08' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='2.243%25' cy='4.089%25' fx='2.243%25' fy='4.089%25' r='122.873%25' gradientTransform='scale(.78523 1) rotate(36.406 .025 .05)' id='x'%3e %3cstop stop-color='%23EDA83A' offset='0%25'/%3e %3cstop stop-color='%23FFDC5E' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='100%25' cy='7.011%25' fx='100%25' fy='7.011%25' r='105.039%25' gradientTransform='scale(-.90713 -1) rotate(-45.799 -.217 2.489)' id='z'%3e %3cstop stop-color='%23F4B248' offset='0%25'/%3e %3cstop stop-color='%23FFDD5F' offset='100%25'/%3e %3c/radialGradient%3e %3clinearGradient x1='50%25' y1='95.035%25' x2='50%25' y2='7.417%25' id='b'%3e %3cstop stop-color='%23F28A2D' offset='0%25'/%3e %3cstop stop-color='%23FDE86F' offset='100%25'/%3e %3c/linearGradient%3e %3clinearGradient x1='49.985%25' y1='-40.061%25' x2='49.985%25' y2='111.909%25' id='i'%3e %3cstop stop-color='%23482314' offset='0%25'/%3e %3cstop stop-color='%239A4111' offset='100%25'/%3e %3c/linearGradient%3e %3clinearGradient x1='52.727%25' y1='31.334%25' x2='28.964%25' y2='102.251%25' id='o'%3e %3cstop stop-color='%23F34462' offset='0%25'/%3e %3cstop stop-color='%23CC0820' offset='100%25'/%3e %3c/linearGradient%3e %3cpath d='M180 90c0 49.71-40.29 90-90 90S0 139.71 0 90 40.29 0 90 0s90 40.29 90 90z' id='a'/%3e %3cpath d='M108.947 95.828c-23.47-7.285-31.71 8.844-31.71 8.844s2.376-17.954-21.095-25.24c-22.57-7.004-36.253 13.757-37.307 26.812-2.264 28.103 22.134 59.996 31.26 70.86a8.062 8.062 0 008.34 2.584c13.697-3.777 51.904-16.242 66.009-40.667 6.54-11.328 7.06-36.188-15.497-43.193z' id='n'/%3e %3cpath d='M180.642 90c0 49.71-40.289 90-90 90-49.71 0-90-40.29-90-90s40.29-90 90-90c49.711 0 90 40.29 90 90z' id='w'/%3e %3c/defs%3e %3cg fill='none' fill-rule='evenodd'%3e %3cg fill-rule='nonzero'%3e %3cg transform='translate(.005 -.004)'%3e %3cuse fill='url(%23b)' xlink:href='%23a'/%3e %3cuse fill='url(%23c)' xlink:href='%23a'/%3e %3cuse fill='url(%23d)' xlink:href='%23a'/%3e %3cuse fill='url(%23e)' xlink:href='%23a'/%3e %3cuse fill='url(%23f)' xlink:href='%23a'/%3e %3cuse fill='url(%23g)' xlink:href='%23a'/%3e %3cuse fill='url(%23h)' xlink:href='%23a'/%3e %3c/g%3e %3cpath d='M109.013 66.234c-1.14-3.051-36.872-3.051-38.011 0-1.322 3.558 6.806 8.396 19.012 8.255 12.192.14 20.306-4.71 18.999-8.255z' fill='url(%23i)' transform='translate(.005 -.004)'/%3e %3cpath d='M68.006 46.125c.014 7.566-4.823 9.788-11.995 10.702-7.102 1.068-11.883-2.068-11.995-10.702-.099-7.256 3.81-16.116 11.995-16.284 8.17.168 11.981 9.028 11.995 16.284z' fill='url(%23j)' transform='translate(.005 -.004)'/%3e %3cpath d='M54.807 35.054c1.18 1.378.97 3.769-.479 5.358-1.448 1.575-3.571 1.744-4.753.366-1.181-1.378-.97-3.77.478-5.344 1.449-1.59 3.572-1.744 4.754-.38z' fill='%234E506A'/%3e %3cpath d='M112.022 46.125c-.014 7.566 4.823 9.788 11.995 10.702 7.102 1.068 11.883-2.068 11.995-10.702.099-7.256-3.81-16.116-11.995-16.284-8.184.168-11.995 9.028-11.995 16.284z' fill='url(%23k)' transform='translate(.005 -.004)'/%3e %3cpath d='M124.078 34.52c.957 1.547.38 3.881-1.293 5.217-1.674 1.336-3.797 1.181-4.753-.366-.957-1.546-.38-3.88 1.293-5.217 1.66-1.336 3.797-1.181 4.753.366z' fill='%234E506A'/%3e %3cpath d='M37.969 23.344c-2.349 1.983-.45 6.047 3.515 4.19 6.328-2.967 19.899-6.623 31.824-5.287 3.164.351 4.19-.113 3.487-4.022-.689-3.853-4.33-6.37-13.387-5.26-14.035 1.716-23.09 8.396-25.44 10.379z' fill='url(%23l)' transform='translate(.005 -.004)'/%3e %3cpath d='M116.592 12.952c-9.056-1.111-12.698 1.42-13.387 5.259-.703 3.91.323 4.373 3.487 4.022 11.925-1.336 25.481 2.32 31.824 5.287 3.965 1.857 5.864-2.207 3.515-4.19-2.348-1.97-11.404-8.649-25.439-10.378z' fill='url(%23m)' transform='translate(.005 -.004)'/%3e %3c/g%3e %3cg fill-rule='nonzero'%3e %3cuse fill='url(%23o)' xlink:href='%23n'/%3e %3cuse fill='url(%23p)' xlink:href='%23n'/%3e %3cuse fill='url(%23q)' xlink:href='%23n'/%3e %3cuse fill='url(%23r)' xlink:href='%23n'/%3e %3cuse fill='url(%23s)' xlink:href='%23n'/%3e %3cuse fill='url(%23t)' xlink:href='%23n'/%3e %3cuse fill='url(%23u)' xlink:href='%23n'/%3e %3cuse fill-opacity='.5' fill='url(%23v)' xlink:href='%23n'/%3e %3c/g%3e %3cg transform='translate(-.637 -.004)'%3e %3cmask id='y' fill='white'%3e %3cuse xlink:href='%23w'/%3e %3c/mask%3e %3cpath d='M15.52 86.231C9.642 80.508-.708 77.892-1.89 91.153c-.927 10.364 3.93 27.694 16.234 37.763C45.282 154.23 74.742 139.667 75.628 122c.699-13.932-15.502-12.327-20.648-12.045-.352.014-.507-.45-.197-.647a48.147 48.147 0 004.725-3.488c4.036-3.403 1.968-9.31-3.67-7.607-.858.253-14.583 4.359-23.288 1.068-9.872-3.726-11.053-7.214-17.03-13.05z' fill='url(%23x)' fill-rule='nonzero' mask='url(%23y)'/%3e %3cpath d='M161.081 88.2c3.502-6.778 9.066-4.401 12.194-3.359 4.61 1.537 7.353 4.4 7.353 11.572 0 17.001-2.812 32.765-17.002 48.6-25.987 28.982-69.935 25.143-73.675 6.862-3.094-15.16 13.066-16.678 18.34-17.381.365-.042.421-.605.098-.746a46.169 46.169 0 01-5.4-2.896c-5.444-3.403-3.989-10.051 2.405-9.07 6.806 1.012 15.23 2.924 22.486 2.207 21.009-2.11 24.975-19.87 33.201-35.789z' fill='url(%23z)' fill-rule='nonzero' mask='url(%23y)'/%3e %3c/g%3e %3c/g%3e %3c/svg%3e" width="18">            
+
+                            <span class="wutt-react-text">198K</span>
+
+
+
+                        </div>
+                        <div class="wutt-comment">
+                            <div class="wutt-comment-text1">6.4K Comments</div>
+                            <div class="wutt-comment-text2">5K Shares</div>
+                        </div>
+                        <hr class="wutt-line-react">
+
+                </div>
+
+                <div class="wuttlocosh">
+                    <div class="lo">
+                        <img id="care-react-wutt" class="j1lvzwm4" height="18" role="presentation" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 180 180' %3e %3cdefs%3e %3cradialGradient cx='50.001%25' cy='50%25' fx='50.001%25' fy='50%25' r='50%25' id='c'%3e %3cstop stop-color='%23F08423' stop-opacity='0' offset='0%25'/%3e %3cstop stop-color='%23F08423' stop-opacity='.34' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='50%25' cy='44.086%25' fx='50%25' fy='44.086%25' r='57.412%25' gradientTransform='matrix(-1 0 0 -.83877 1 .81)' id='d'%3e %3cstop stop-color='%23FFE874' offset='0%25'/%3e %3cstop stop-color='%23FFE368' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='10.82%25' cy='52.019%25' fx='10.82%25' fy='52.019%25' r='10.077%25' gradientTransform='matrix(.91249 .4091 -.31644 .7058 .174 .109)' id='e'%3e %3cstop stop-color='%23F28A2D' stop-opacity='.5' offset='0%25'/%3e %3cstop stop-color='%23F28A2D' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='74.131%25' cy='76.545%25' fx='74.131%25' fy='76.545%25' r='28.284%25' gradientTransform='rotate(-38.243 1.4 .537) scale(1 .40312)' id='f'%3e %3cstop stop-color='%23F28A2D' stop-opacity='.5' offset='0%25'/%3e %3cstop stop-color='%23F28A2D' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='31.849%25' cy='12.675%25' fx='31.849%25' fy='12.675%25' r='10.743%25' gradientTransform='matrix(.98371 -.17976 .03575 .19562 0 .16)' id='g'%3e %3cstop stop-color='%23D45F00' stop-opacity='.25' offset='0%25'/%3e %3cstop stop-color='%23D45F00' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='68.023%25' cy='12.637%25' fx='68.023%25' fy='12.637%25' r='12.093%25' gradientTransform='rotate(11.848 .192 .076) scale(1 .19886)' id='h'%3e %3cstop stop-color='%23D45F00' stop-opacity='.25' offset='0%25'/%3e %3cstop stop-color='%23D45F00' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='50.709%25' cy='66.964%25' fx='50.709%25' fy='66.964%25' r='87.22%25' gradientTransform='matrix(0 -.8825 1 0 -.163 1.117)' id='j'%3e %3cstop stop-color='%233B446B' offset='0%25'/%3e %3cstop stop-color='%23202340' offset='68.84%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='49.239%25' cy='66.964%25' fx='49.239%25' fy='66.964%25' r='87.22%25' gradientTransform='matrix(0 -.8825 1 0 -.177 1.104)' id='k'%3e %3cstop stop-color='%233B446B' offset='0%25'/%3e %3cstop stop-color='%23202340' offset='68.84%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='48.317%25' cy='42.726%25' fx='48.317%25' fy='42.726%25' r='29.766%25' gradientTransform='matrix(-.09519 -.96847 1.71516 -1.15488 -.204 1.389)' id='l'%3e %3cstop stop-color='%23E38200' offset='0%25'/%3e %3cstop stop-color='%23CD6700' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='50%25' cy='29.807%25' fx='50%25' fy='29.807%25' r='31.377%25' gradientTransform='matrix(.07236 -.9819 2.22613 1.12405 -.2 .454)' id='m'%3e %3cstop stop-color='%23E38200' offset='0%25'/%3e %3cstop stop-color='%23CD6700' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='73.646%25' cy='44.274%25' fx='73.646%25' fy='44.274%25' r='29.002%25' gradientTransform='scale(.92955 1) rotate(20.36 .764 .598)' id='p'%3e %3cstop stop-color='%23FF7091' stop-opacity='.7' offset='0%25'/%3e %3cstop stop-color='%23FE6D8E' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='26.749%25' cy='29.688%25' fx='26.749%25' fy='29.688%25' r='29.002%25' gradientTransform='scale(.92955 1) rotate(20.36 .278 .353)' id='q'%3e %3cstop stop-color='%23FF7091' stop-opacity='.7' offset='0%25'/%3e %3cstop stop-color='%23FE6D8E' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='23.798%25' cy='53.35%25' fx='23.798%25' fy='53.35%25' r='24.89%25' gradientTransform='matrix(-.18738 .97947 -1.25372 -.27758 .951 .449)' id='r'%3e %3cstop stop-color='%239C0600' stop-opacity='.999' offset='0%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='.94' offset='26.692%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='97.063%25' cy='54.555%25' fx='97.063%25' fy='54.555%25' r='15.021%25' gradientTransform='matrix(.8002 .50886 -.59365 1.08039 .518 -.538)' id='s'%3e %3cstop stop-color='%23C71C08' stop-opacity='.75' offset='0%25'/%3e %3cstop stop-color='%23C71C08' stop-opacity='.704' offset='53.056%25'/%3e %3cstop stop-color='%23C71C08' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='4.056%25' cy='24.23%25' fx='4.056%25' fy='24.23%25' r='13.05%25' gradientTransform='matrix(.8728 -.3441 .41218 1.20997 -.095 -.037)' id='t'%3e %3cstop stop-color='%239C0600' stop-opacity='.5' offset='0%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='.473' offset='31.614%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='74.586%25' cy='77.013%25' fx='74.586%25' fy='77.013%25' r='17.563%25' gradientTransform='matrix(.77041 .55955 -.56333 .89765 .605 -.339)' id='u'%3e %3cstop stop-color='%239C0600' stop-opacity='.999' offset='0%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='.934' offset='45.7%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='.803' offset='59.211%25'/%3e %3cstop stop-color='%239C0600' stop-opacity='0' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='50.001%25' cy='50%25' fx='50.001%25' fy='50%25' r='51.087%25' gradientTransform='matrix(-.3809 .91219 -.97139 -.46943 1.176 .279)' id='v'%3e %3cstop stop-color='%23C71C08' stop-opacity='0' offset='0%25'/%3e %3cstop stop-color='%23C71C08' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='2.243%25' cy='4.089%25' fx='2.243%25' fy='4.089%25' r='122.873%25' gradientTransform='scale(.78523 1) rotate(36.406 .025 .05)' id='x'%3e %3cstop stop-color='%23EDA83A' offset='0%25'/%3e %3cstop stop-color='%23FFDC5E' offset='100%25'/%3e %3c/radialGradient%3e %3cradialGradient cx='100%25' cy='7.011%25' fx='100%25' fy='7.011%25' r='105.039%25' gradientTransform='scale(-.90713 -1) rotate(-45.799 -.217 2.489)' id='z'%3e %3cstop stop-color='%23F4B248' offset='0%25'/%3e %3cstop stop-color='%23FFDD5F' offset='100%25'/%3e %3c/radialGradient%3e %3clinearGradient x1='50%25' y1='95.035%25' x2='50%25' y2='7.417%25' id='b'%3e %3cstop stop-color='%23F28A2D' offset='0%25'/%3e %3cstop stop-color='%23FDE86F' offset='100%25'/%3e %3c/linearGradient%3e %3clinearGradient x1='49.985%25' y1='-40.061%25' x2='49.985%25' y2='111.909%25' id='i'%3e %3cstop stop-color='%23482314' offset='0%25'/%3e %3cstop stop-color='%239A4111' offset='100%25'/%3e %3c/linearGradient%3e %3clinearGradient x1='52.727%25' y1='31.334%25' x2='28.964%25' y2='102.251%25' id='o'%3e %3cstop stop-color='%23F34462' offset='0%25'/%3e %3cstop stop-color='%23CC0820' offset='100%25'/%3e %3c/linearGradient%3e %3cpath d='M180 90c0 49.71-40.29 90-90 90S0 139.71 0 90 40.29 0 90 0s90 40.29 90 90z' id='a'/%3e %3cpath d='M108.947 95.828c-23.47-7.285-31.71 8.844-31.71 8.844s2.376-17.954-21.095-25.24c-22.57-7.004-36.253 13.757-37.307 26.812-2.264 28.103 22.134 59.996 31.26 70.86a8.062 8.062 0 008.34 2.584c13.697-3.777 51.904-16.242 66.009-40.667 6.54-11.328 7.06-36.188-15.497-43.193z' id='n'/%3e %3cpath d='M180.642 90c0 49.71-40.289 90-90 90-49.71 0-90-40.29-90-90s40.29-90 90-90c49.711 0 90 40.29 90 90z' id='w'/%3e %3c/defs%3e %3cg fill='none' fill-rule='evenodd'%3e %3cg fill-rule='nonzero'%3e %3cg transform='translate(.005 -.004)'%3e %3cuse fill='url(%23b)' xlink:href='%23a'/%3e %3cuse fill='url(%23c)' xlink:href='%23a'/%3e %3cuse fill='url(%23d)' xlink:href='%23a'/%3e %3cuse fill='url(%23e)' xlink:href='%23a'/%3e %3cuse fill='url(%23f)' xlink:href='%23a'/%3e %3cuse fill='url(%23g)' xlink:href='%23a'/%3e %3cuse fill='url(%23h)' xlink:href='%23a'/%3e %3c/g%3e %3cpath d='M109.013 66.234c-1.14-3.051-36.872-3.051-38.011 0-1.322 3.558 6.806 8.396 19.012 8.255 12.192.14 20.306-4.71 18.999-8.255z' fill='url(%23i)' transform='translate(.005 -.004)'/%3e %3cpath d='M68.006 46.125c.014 7.566-4.823 9.788-11.995 10.702-7.102 1.068-11.883-2.068-11.995-10.702-.099-7.256 3.81-16.116 11.995-16.284 8.17.168 11.981 9.028 11.995 16.284z' fill='url(%23j)' transform='translate(.005 -.004)'/%3e %3cpath d='M54.807 35.054c1.18 1.378.97 3.769-.479 5.358-1.448 1.575-3.571 1.744-4.753.366-1.181-1.378-.97-3.77.478-5.344 1.449-1.59 3.572-1.744 4.754-.38z' fill='%234E506A'/%3e %3cpath d='M112.022 46.125c-.014 7.566 4.823 9.788 11.995 10.702 7.102 1.068 11.883-2.068 11.995-10.702.099-7.256-3.81-16.116-11.995-16.284-8.184.168-11.995 9.028-11.995 16.284z' fill='url(%23k)' transform='translate(.005 -.004)'/%3e %3cpath d='M124.078 34.52c.957 1.547.38 3.881-1.293 5.217-1.674 1.336-3.797 1.181-4.753-.366-.957-1.546-.38-3.88 1.293-5.217 1.66-1.336 3.797-1.181 4.753.366z' fill='%234E506A'/%3e %3cpath d='M37.969 23.344c-2.349 1.983-.45 6.047 3.515 4.19 6.328-2.967 19.899-6.623 31.824-5.287 3.164.351 4.19-.113 3.487-4.022-.689-3.853-4.33-6.37-13.387-5.26-14.035 1.716-23.09 8.396-25.44 10.379z' fill='url(%23l)' transform='translate(.005 -.004)'/%3e %3cpath d='M116.592 12.952c-9.056-1.111-12.698 1.42-13.387 5.259-.703 3.91.323 4.373 3.487 4.022 11.925-1.336 25.481 2.32 31.824 5.287 3.965 1.857 5.864-2.207 3.515-4.19-2.348-1.97-11.404-8.649-25.439-10.378z' fill='url(%23m)' transform='translate(.005 -.004)'/%3e %3c/g%3e %3cg fill-rule='nonzero'%3e %3cuse fill='url(%23o)' xlink:href='%23n'/%3e %3cuse fill='url(%23p)' xlink:href='%23n'/%3e %3cuse fill='url(%23q)' xlink:href='%23n'/%3e %3cuse fill='url(%23r)' xlink:href='%23n'/%3e %3cuse fill='url(%23s)' xlink:href='%23n'/%3e %3cuse fill='url(%23t)' xlink:href='%23n'/%3e %3cuse fill='url(%23u)' xlink:href='%23n'/%3e %3cuse fill-opacity='.5' fill='url(%23v)' xlink:href='%23n'/%3e %3c/g%3e %3cg transform='translate(-.637 -.004)'%3e %3cmask id='y' fill='white'%3e %3cuse xlink:href='%23w'/%3e %3c/mask%3e %3cpath d='M15.52 86.231C9.642 80.508-.708 77.892-1.89 91.153c-.927 10.364 3.93 27.694 16.234 37.763C45.282 154.23 74.742 139.667 75.628 122c.699-13.932-15.502-12.327-20.648-12.045-.352.014-.507-.45-.197-.647a48.147 48.147 0 004.725-3.488c4.036-3.403 1.968-9.31-3.67-7.607-.858.253-14.583 4.359-23.288 1.068-9.872-3.726-11.053-7.214-17.03-13.05z' fill='url(%23x)' fill-rule='nonzero' mask='url(%23y)'/%3e %3cpath d='M161.081 88.2c3.502-6.778 9.066-4.401 12.194-3.359 4.61 1.537 7.353 4.4 7.353 11.572 0 17.001-2.812 32.765-17.002 48.6-25.987 28.982-69.935 25.143-73.675 6.862-3.094-15.16 13.066-16.678 18.34-17.381.365-.042.421-.605.098-.746a46.169 46.169 0 01-5.4-2.896c-5.444-3.403-3.989-10.051 2.405-9.07 6.806 1.012 15.23 2.924 22.486 2.207 21.009-2.11 24.975-19.87 33.201-35.789z' fill='url(%23z)' fill-rule='nonzero' mask='url(%23y)'/%3e %3c/g%3e %3c/g%3e %3c/svg%3e" width="18">            
+                        <span class="care-text-color">Care</span>
+
+                    </div>
+                    <div class="co">
+                        <svg id="poe-comment" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="50" height="50"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g transform="translate(1.462,1.462) scale(0.983,0.983)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g fill="#a8abaf" stroke="#cccccc" stroke-width="3" stroke-linejoin="round"><path d="M147.92,13.76c9.44656,0 17.2,7.75344 17.2,17.2v82.56c0,9.44656 -7.75344,17.2 -17.2,17.2h-77.185c-8.45219,19.90094 -25.18187,27.52 -39.775,27.52c-1.505,-0.05375 -2.80844,-1.08844 -3.19812,-2.53969c-0.38969,-1.45125 0.20156,-2.99656 1.47812,-3.80281c4.54188,-2.72781 6.97406,-6.04687 8.2775,-9.9975c1.06156,-3.21156 1.11531,-7.04125 0.645,-11.18h-14.0825c-9.44656,0 -17.2,-7.75344 -17.2,-17.2v-82.56c0,-9.44656 7.75344,-17.2 17.2,-17.2zM13.76,30.96v82.56c0,5.6975 4.6225,10.32 10.32,10.32h17.2c1.63938,0.02688 3.02344,1.19594 3.3325,2.795c1.10188,6.04688 1.24969,11.98625 -0.5375,17.415c-0.71219,2.17688 -1.98875,4.20594 -3.3325,6.1275c9.93031,-2.53969 19.48438,-9.48687 24.8325,-24.08c0.49719,-1.35719 1.78719,-2.2575 3.225,-2.2575h79.12c5.6975,0 10.32,-4.6225 10.32,-10.32v-82.56c0,-5.6975 -4.6225,-10.32 -10.32,-10.32h-123.84c-5.6975,0 -10.32,4.6225 -10.32,10.32z"></path></g><path d="M0,172v-172h172v172z" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path><g fill="#a8abaf" stroke="none" stroke-width="1" stroke-linejoin="miter"><path d="M24.08,13.76c-9.44656,0 -17.2,7.75344 -17.2,17.2v82.56c0,9.44656 7.75344,17.2 17.2,17.2h14.0825c0.47031,4.13875 0.41656,7.96844 -0.645,11.18c-1.30344,3.95063 -3.73562,7.26969 -8.2775,9.9975c-1.27656,0.80625 -1.86781,2.35156 -1.47812,3.80281c0.38969,1.45125 1.69312,2.48594 3.19812,2.53969c14.59313,0 31.32281,-7.61906 39.775,-27.52h77.185c9.44656,0 17.2,-7.75344 17.2,-17.2v-82.56c0,-9.44656 -7.75344,-17.2 -17.2,-17.2zM24.08,20.64h123.84c5.6975,0 10.32,4.6225 10.32,10.32v82.56c0,5.6975 -4.6225,10.32 -10.32,10.32h-79.12c-1.43781,0 -2.72781,0.90031 -3.225,2.2575c-5.34812,14.59313 -14.90219,21.54031 -24.8325,24.08c1.34375,-1.92156 2.62031,-3.95062 3.3325,-6.1275c1.78719,-5.42875 1.63938,-11.36812 0.5375,-17.415c-0.30906,-1.59906 -1.69312,-2.76812 -3.3325,-2.795h-17.2c-5.6975,0 -10.32,-4.6225 -10.32,-10.32v-82.56c0,-5.6975 4.6225,-10.32 10.32,-10.32z"></path></g><path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path></g></g></svg>
+                        <span class="poe-comment-text">Comment</span>
+                    </div>
+
+
+                    <div class="sh">
+                        <svg id="poe-share" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#b0b3b8"><path d="M99.33,37.84c-1.73344,0.215 -3.02344,1.69313 -3.01,3.44v24.295c-39.60031,1.20938 -60.9525,22.17188 -71.4875,43c-10.68281,21.11031 -11.05906,41.69656 -11.0725,42.355v0.215v0.215c-0.05375,1.89469 1.43781,3.49375 3.3325,3.5475c1.89469,0.05375 3.49375,-1.43781 3.5475,-3.3325v-0.215c0.02688,-0.3225 0.79281,-10.73656 10.6425,-21.8225c9.675,-10.87094 28.55469,-21.83594 65.0375,-22.575v23.7575c0,1.31688 0.7525,2.52625 1.94844,3.10406c1.19594,0.57781 2.60688,0.41656 3.64156,-0.41656l55.04,-44.72c0.81969,-0.65844 1.29,-1.63937 1.29,-2.6875c0,-1.04812 -0.47031,-2.02906 -1.29,-2.6875l-55.04,-44.72c-0.72562,-0.59125 -1.65281,-0.86 -2.58,-0.7525zM103.2,48.4825l46.1175,37.5175l-46.1175,37.5175v-20.3175c0,-1.89469 -1.54531,-3.44 -3.44,-3.44c-40.43344,0 -62.22906,12.42969 -73.6375,25.2625c-0.43,0.48375 -0.67187,0.91375 -1.075,1.3975c1.45125,-4.73 3.35938,-9.7825 5.9125,-14.835c10.03781,-19.83375 29.19969,-39.345 68.8,-39.345c1.89469,0 3.44,-1.54531 3.44,-3.44z"></path></g></g></svg>
+                        <span class="poe-share-text">Share</span>
+
+                    </div>
+                </div>
+                </div>
+
+                <!-- end newsfeed part3 -->
+
+
+
+
+
+                <!-- start newsfeed part4 -->
+
+
+                <div class="newsfeed-part4">
+                    <div class="office-user"></div>
+                    <div class="office-name">Office Diary </div>
+                    <span class="office-playlist">posted a video to playlist</span> 
+                    <span class="playlist-name">Work From Home.</span>
+                    <div class="office-date">October 8, 2020</div>
+                    <div class="three-dot">
+                        <svg id="three-dot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv jnigpg78 odw8uiq3"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg>
+                    </div>
+                    <div class="office-dot-earth">·</div>
+                    <svg id="office-earth" viewBox="0 0 16 16" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv cyypbtt7 fwizqjfa" title="Shared with Public"><title>Shared with Public</title><g fill-rule="evenodd" transform="translate(-448 -544)"><g><path d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434" transform="translate(354 143.5)"></path><path d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096" transform="translate(354 143.5)"></path><path fill-rule="nonzero" d="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z" transform="translate(354 143.5)"></path></g></g></svg> 
+                    <div class="office-status">
+                        <span class="office-status-text">Work from home - part 4</span>
+                         <hr class="office-line">
+                          <span class="office-text1"> WFH ကာလမှာ Interview တွေလုပ်ရတာ အဆင်ပြေမနေဘူးနော် ....</span>
+                        <img id="office-emo1" src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4f/1/16/1f601.png" alt="">
+                        <img id="office-emo2" src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4f/1/16/1f601.png" alt=""><br>
+                       <span class="office-text2"> ဒါက Office Diary ရဲ့ Interview - 2 ပေါ့ .... 😉… </span>
+                       <span class="office-text3">See more</span>
+
+      
+
+      
+                    </div>
+    
+                    <div class="office-video1">
+                        <video width="100%" height="100%" controls>
+                            <source src="/videos/office1.mp4" type="video/mp4">
+              
+                        </div>
+       
+
+                    <div class="office-react-box">
+                        <div class="office-react">
+                            <img id="office-react-haha" alt="Haha" class="" height="18" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='10.25%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23FEEA70'/%3e%3cstop offset='100%25' stop-color='%23F69B30'/%3e%3c/linearGradient%3e%3clinearGradient id='d' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23472315'/%3e%3cstop offset='100%25' stop-color='%238B3A0E'/%3e%3c/linearGradient%3e%3clinearGradient id='e' x1='50%25' x2='50%25' y1='0%25' y2='81.902%25'%3e%3cstop offset='0%25' stop-color='%23FC607C'/%3e%3cstop offset='100%25' stop-color='%23D91F3A'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0.921365489 0 0 0 0 0.460682745 0 0 0 0 0 0 0 0 0.35 0'/%3e%3c/filter%3e%3cpath id='b' d='M16 8A8 8 0 110 8a8 8 0 0116 0'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='url(%23d)' d='M3 8.008C3 10.023 4.006 14 8 14c3.993 0 5-3.977 5-5.992C13 7.849 11.39 7 8 7c-3.39 0-5 .849-5 1.008'/%3e%3cpath fill='url(%23e)' d='M4.541 12.5c.804.995 1.907 1.5 3.469 1.5 1.563 0 2.655-.505 3.459-1.5-.551-.588-1.599-1.5-3.459-1.5s-2.917.912-3.469 1.5'/%3e%3cpath fill='%232A3755' d='M6.213 4.144c.263.188.502.455.41.788-.071.254-.194.369-.422.371-.78.011-1.708.255-2.506.612-.065.029-.197.088-.332.085-.124-.003-.251-.058-.327-.237-.067-.157-.073-.388.276-.598.545-.33 1.257-.48 1.909-.604a7.077 7.077 0 00-1.315-.768c-.427-.194-.38-.457-.323-.6.127-.317.609-.196 1.078.026a9 9 0 011.552.925zm3.577 0a8.953 8.953 0 011.55-.925c.47-.222.95-.343 1.078-.026.057.143.104.406-.323.6a7.029 7.029 0 00-1.313.768c.65.123 1.363.274 1.907.604.349.21.342.44.276.598-.077.18-.203.234-.327.237-.135.003-.267-.056-.332-.085-.797-.357-1.725-.6-2.504-.612-.228-.002-.351-.117-.422-.37-.091-.333.147-.6.41-.788z'/%3e%3c/g%3e%3c/svg%3e" width="18">
+                            <img id="office-react-like" class="j1lvzwm4" height="18" role="presentation" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%2318AFFF'/%3e%3cstop offset='100%25' stop-color='%230062DF'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0 0 0 0 0 0.299356041 0 0 0 0 0.681187726 0 0 0 0.3495684 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 00-8 8 8 8 0 1016 0 8 8 0 00-8-8z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725a.73.73 0 01.089.546c-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666zM3.6 7h.8a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-.8a.6.6 0 01-.6-.6V7.6a.6.6 0 01.6-.6z'/%3e%3c/g%3e%3c/svg%3e" width="18">
+
+
+
+                            <span class="office-react-text">181K</span>
+
+
+
+                        </div>
+                        <d  iv class="office-comment">
+                            <div class="office-comment-text1">2.5K Comments</div>
+                            <div class="office-comment-text2">9.2K Shares</div>
+                        </d>
+                        <hr class="wutt-line-react">
+
+                </div>
+
+                <div class="officelocosh">
+                    <div class="lo">
+                        <img id="haha-react-office" alt="Haha" class="" height="18" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='10.25%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23FEEA70'/%3e%3cstop offset='100%25' stop-color='%23F69B30'/%3e%3c/linearGradient%3e%3clinearGradient id='d' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23472315'/%3e%3cstop offset='100%25' stop-color='%238B3A0E'/%3e%3c/linearGradient%3e%3clinearGradient id='e' x1='50%25' x2='50%25' y1='0%25' y2='81.902%25'%3e%3cstop offset='0%25' stop-color='%23FC607C'/%3e%3cstop offset='100%25' stop-color='%23D91F3A'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0.921365489 0 0 0 0 0.460682745 0 0 0 0 0 0 0 0 0.35 0'/%3e%3c/filter%3e%3cpath id='b' d='M16 8A8 8 0 110 8a8 8 0 0116 0'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='url(%23d)' d='M3 8.008C3 10.023 4.006 14 8 14c3.993 0 5-3.977 5-5.992C13 7.849 11.39 7 8 7c-3.39 0-5 .849-5 1.008'/%3e%3cpath fill='url(%23e)' d='M4.541 12.5c.804.995 1.907 1.5 3.469 1.5 1.563 0 2.655-.505 3.459-1.5-.551-.588-1.599-1.5-3.459-1.5s-2.917.912-3.469 1.5'/%3e%3cpath fill='%232A3755' d='M6.213 4.144c.263.188.502.455.41.788-.071.254-.194.369-.422.371-.78.011-1.708.255-2.506.612-.065.029-.197.088-.332.085-.124-.003-.251-.058-.327-.237-.067-.157-.073-.388.276-.598.545-.33 1.257-.48 1.909-.604a7.077 7.077 0 00-1.315-.768c-.427-.194-.38-.457-.323-.6.127-.317.609-.196 1.078.026a9 9 0 011.552.925zm3.577 0a8.953 8.953 0 011.55-.925c.47-.222.95-.343 1.078-.026.057.143.104.406-.323.6a7.029 7.029 0 00-1.313.768c.65.123 1.363.274 1.907.604.349.21.342.44.276.598-.077.18-.203.234-.327.237-.135.003-.267-.056-.332-.085-.797-.357-1.725-.6-2.504-.612-.228-.002-.351-.117-.422-.37-.091-.333.147-.6.41-.788z'/%3e%3c/g%3e%3c/svg%3e" width="18">
+                        <span class="care-text-color">Haha</span>
+
+                    </div>
+                    <div class="co">
+                        <svg id="poe-comment" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="50" height="50"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g transform="translate(1.462,1.462) scale(0.983,0.983)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g fill="#a8abaf" stroke="#cccccc" stroke-width="3" stroke-linejoin="round"><path d="M147.92,13.76c9.44656,0 17.2,7.75344 17.2,17.2v82.56c0,9.44656 -7.75344,17.2 -17.2,17.2h-77.185c-8.45219,19.90094 -25.18187,27.52 -39.775,27.52c-1.505,-0.05375 -2.80844,-1.08844 -3.19812,-2.53969c-0.38969,-1.45125 0.20156,-2.99656 1.47812,-3.80281c4.54188,-2.72781 6.97406,-6.04687 8.2775,-9.9975c1.06156,-3.21156 1.11531,-7.04125 0.645,-11.18h-14.0825c-9.44656,0 -17.2,-7.75344 -17.2,-17.2v-82.56c0,-9.44656 7.75344,-17.2 17.2,-17.2zM13.76,30.96v82.56c0,5.6975 4.6225,10.32 10.32,10.32h17.2c1.63938,0.02688 3.02344,1.19594 3.3325,2.795c1.10188,6.04688 1.24969,11.98625 -0.5375,17.415c-0.71219,2.17688 -1.98875,4.20594 -3.3325,6.1275c9.93031,-2.53969 19.48438,-9.48687 24.8325,-24.08c0.49719,-1.35719 1.78719,-2.2575 3.225,-2.2575h79.12c5.6975,0 10.32,-4.6225 10.32,-10.32v-82.56c0,-5.6975 -4.6225,-10.32 -10.32,-10.32h-123.84c-5.6975,0 -10.32,4.6225 -10.32,10.32z"></path></g><path d="M0,172v-172h172v172z" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path><g fill="#a8abaf" stroke="none" stroke-width="1" stroke-linejoin="miter"><path d="M24.08,13.76c-9.44656,0 -17.2,7.75344 -17.2,17.2v82.56c0,9.44656 7.75344,17.2 17.2,17.2h14.0825c0.47031,4.13875 0.41656,7.96844 -0.645,11.18c-1.30344,3.95063 -3.73562,7.26969 -8.2775,9.9975c-1.27656,0.80625 -1.86781,2.35156 -1.47812,3.80281c0.38969,1.45125 1.69312,2.48594 3.19812,2.53969c14.59313,0 31.32281,-7.61906 39.775,-27.52h77.185c9.44656,0 17.2,-7.75344 17.2,-17.2v-82.56c0,-9.44656 -7.75344,-17.2 -17.2,-17.2zM24.08,20.64h123.84c5.6975,0 10.32,4.6225 10.32,10.32v82.56c0,5.6975 -4.6225,10.32 -10.32,10.32h-79.12c-1.43781,0 -2.72781,0.90031 -3.225,2.2575c-5.34812,14.59313 -14.90219,21.54031 -24.8325,24.08c1.34375,-1.92156 2.62031,-3.95062 3.3325,-6.1275c1.78719,-5.42875 1.63938,-11.36812 0.5375,-17.415c-0.30906,-1.59906 -1.69312,-2.76812 -3.3325,-2.795h-17.2c-5.6975,0 -10.32,-4.6225 -10.32,-10.32v-82.56c0,-5.6975 4.6225,-10.32 10.32,-10.32z"></path></g><path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path></g></g></svg>
+                        <span class="poe-comment-text">Comment</span>
+                    </div>
+
+
+                    <div class="sh">
+                        <svg id="poe-share" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#b0b3b8"><path d="M99.33,37.84c-1.73344,0.215 -3.02344,1.69313 -3.01,3.44v24.295c-39.60031,1.20938 -60.9525,22.17188 -71.4875,43c-10.68281,21.11031 -11.05906,41.69656 -11.0725,42.355v0.215v0.215c-0.05375,1.89469 1.43781,3.49375 3.3325,3.5475c1.89469,0.05375 3.49375,-1.43781 3.5475,-3.3325v-0.215c0.02688,-0.3225 0.79281,-10.73656 10.6425,-21.8225c9.675,-10.87094 28.55469,-21.83594 65.0375,-22.575v23.7575c0,1.31688 0.7525,2.52625 1.94844,3.10406c1.19594,0.57781 2.60688,0.41656 3.64156,-0.41656l55.04,-44.72c0.81969,-0.65844 1.29,-1.63937 1.29,-2.6875c0,-1.04812 -0.47031,-2.02906 -1.29,-2.6875l-55.04,-44.72c-0.72562,-0.59125 -1.65281,-0.86 -2.58,-0.7525zM103.2,48.4825l46.1175,37.5175l-46.1175,37.5175v-20.3175c0,-1.89469 -1.54531,-3.44 -3.44,-3.44c-40.43344,0 -62.22906,12.42969 -73.6375,25.2625c-0.43,0.48375 -0.67187,0.91375 -1.075,1.3975c1.45125,-4.73 3.35938,-9.7825 5.9125,-14.835c10.03781,-19.83375 29.19969,-39.345 68.8,-39.345c1.89469,0 3.44,-1.54531 3.44,-3.44z"></path></g></g></svg>
+                        <span class="poe-share-text">Share</span>
+
+                    </div>
+                </div>
+                </div>
+
+
+                <!-- end newsfeed part4 -->
+
+
+
+
+
+
+
+
+
+                <!-- start newsfeed part5 -->
+
+
+                <div class="newsfeed-part5">
+                    <div class="yoon-user"></div>
+                    <div class="yoon-name">Yoon Eain San</div>
+   
+   
+                    <div class="yoon-date">November 25 at 6:24 PM </div>
+                    <div class="three-dot">
+                        <svg id="three-dot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv jnigpg78 odw8uiq3"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg>
+                    </div>
+                    <div class="yoon-global-dot">·</div>
+                    <svg id="yoon-earth" viewBox="0 0 16 16" width="1em" height="1em" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv cyypbtt7 fwizqjfa" title="Shared with Public"><title>Shared with Public</title><g fill-rule="evenodd" transform="translate(-448 -544)"><g><path d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434" transform="translate(354 143.5)"></path><path d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096" transform="translate(354 143.5)"></path><path fill-rule="nonzero" d="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z" transform="translate(354 143.5)"></path></g></g></svg> 
+                    <div class="yoon-status">
+                        <span class="yoon-status-text">မ, မဘူး နင်းမှာ ပြားစမ်းပြားစမ်း</span>
+       
+    
+
+      
+
+      
+                    </div>
+    
+                    <div class="yoon-image">
+                        <img src="images/yoon.jpg" alt="">
+                    </div>
+       
+
+                    <div class="yoon-react-box">
+                        <div class="yoon-react">
+                            <img id="yoon-react-heart" class="j1lvzwm4" height="18" role="presentation" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23FF6680'/%3e%3cstop offset='100%25' stop-color='%23E61739'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0.710144928 0 0 0 0 0 0 0 0 0 0.117780134 0 0 0 0.349786932 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 100 16A8 8 0 008 0z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41'/%3e%3c/g%3e%3c/svg%3e" width="18">   
+
+                            <img id="yoon-react-like" class="j1lvzwm4" height="18" role="presentation" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%2318AFFF'/%3e%3cstop offset='100%25' stop-color='%230062DF'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0 0 0 0 0 0.299356041 0 0 0 0 0.681187726 0 0 0 0.3495684 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 00-8 8 8 8 0 1016 0 8 8 0 00-8-8z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725a.73.73 0 01.089.546c-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666zM3.6 7h.8a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-.8a.6.6 0 01-.6-.6V7.6a.6.6 0 01.6-.6z'/%3e%3c/g%3e%3c/svg%3e" width="18">
+                            <img id="yoon-react-haha" alt="Haha" class="" height="18" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='10.25%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23FEEA70'/%3e%3cstop offset='100%25' stop-color='%23F69B30'/%3e%3c/linearGradient%3e%3clinearGradient id='d' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23472315'/%3e%3cstop offset='100%25' stop-color='%238B3A0E'/%3e%3c/linearGradient%3e%3clinearGradient id='e' x1='50%25' x2='50%25' y1='0%25' y2='81.902%25'%3e%3cstop offset='0%25' stop-color='%23FC607C'/%3e%3cstop offset='100%25' stop-color='%23D91F3A'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0.921365489 0 0 0 0 0.460682745 0 0 0 0 0 0 0 0 0.35 0'/%3e%3c/filter%3e%3cpath id='b' d='M16 8A8 8 0 110 8a8 8 0 0116 0'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='url(%23d)' d='M3 8.008C3 10.023 4.006 14 8 14c3.993 0 5-3.977 5-5.992C13 7.849 11.39 7 8 7c-3.39 0-5 .849-5 1.008'/%3e%3cpath fill='url(%23e)' d='M4.541 12.5c.804.995 1.907 1.5 3.469 1.5 1.563 0 2.655-.505 3.459-1.5-.551-.588-1.599-1.5-3.459-1.5s-2.917.912-3.469 1.5'/%3e%3cpath fill='%232A3755' d='M6.213 4.144c.263.188.502.455.41.788-.071.254-.194.369-.422.371-.78.011-1.708.255-2.506.612-.065.029-.197.088-.332.085-.124-.003-.251-.058-.327-.237-.067-.157-.073-.388.276-.598.545-.33 1.257-.48 1.909-.604a7.077 7.077 0 00-1.315-.768c-.427-.194-.38-.457-.323-.6.127-.317.609-.196 1.078.026a9 9 0 011.552.925zm3.577 0a8.953 8.953 0 011.55-.925c.47-.222.95-.343 1.078-.026.057.143.104.406-.323.6a7.029 7.029 0 00-1.313.768c.65.123 1.363.274 1.907.604.349.21.342.44.276.598-.077.18-.203.234-.327.237-.135.003-.267-.056-.332-.085-.797-.357-1.725-.6-2.504-.612-.228-.002-.351-.117-.422-.37-.091-.333.147-.6.41-.788z'/%3e%3c/g%3e%3c/svg%3e" width="18">
+
+
+
+
+                            <span class="yoon-react-text">6.8K</span>
+
+
+
+                        </div>
+                        <div class="yoon-comment">
+                            <div class="yoon-comment-text1">316 Comments</div>
+                            <div class="yoon-comment-text2">146 Shares</div>
+                        </div>
+                        <hr class="wutt-line-react">
+
+                </div>
+
+                <div class="yoonlocosh">
+                    <div class="lo">
+                        <img id="haha-react-office" alt="Haha" class="" height="18" src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='10.25%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23FEEA70'/%3e%3cstop offset='100%25' stop-color='%23F69B30'/%3e%3c/linearGradient%3e%3clinearGradient id='d' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%23472315'/%3e%3cstop offset='100%25' stop-color='%238B3A0E'/%3e%3c/linearGradient%3e%3clinearGradient id='e' x1='50%25' x2='50%25' y1='0%25' y2='81.902%25'%3e%3cstop offset='0%25' stop-color='%23FC607C'/%3e%3cstop offset='100%25' stop-color='%23D91F3A'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0.921365489 0 0 0 0 0.460682745 0 0 0 0 0 0 0 0 0.35 0'/%3e%3c/filter%3e%3cpath id='b' d='M16 8A8 8 0 110 8a8 8 0 0116 0'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='url(%23d)' d='M3 8.008C3 10.023 4.006 14 8 14c3.993 0 5-3.977 5-5.992C13 7.849 11.39 7 8 7c-3.39 0-5 .849-5 1.008'/%3e%3cpath fill='url(%23e)' d='M4.541 12.5c.804.995 1.907 1.5 3.469 1.5 1.563 0 2.655-.505 3.459-1.5-.551-.588-1.599-1.5-3.459-1.5s-2.917.912-3.469 1.5'/%3e%3cpath fill='%232A3755' d='M6.213 4.144c.263.188.502.455.41.788-.071.254-.194.369-.422.371-.78.011-1.708.255-2.506.612-.065.029-.197.088-.332.085-.124-.003-.251-.058-.327-.237-.067-.157-.073-.388.276-.598.545-.33 1.257-.48 1.909-.604a7.077 7.077 0 00-1.315-.768c-.427-.194-.38-.457-.323-.6.127-.317.609-.196 1.078.026a9 9 0 011.552.925zm3.577 0a8.953 8.953 0 011.55-.925c.47-.222.95-.343 1.078-.026.057.143.104.406-.323.6a7.029 7.029 0 00-1.313.768c.65.123 1.363.274 1.907.604.349.21.342.44.276.598-.077.18-.203.234-.327.237-.135.003-.267-.056-.332-.085-.797-.357-1.725-.6-2.504-.612-.228-.002-.351-.117-.422-.37-.091-.333.147-.6.41-.788z'/%3e%3c/g%3e%3c/svg%3e" width="18">
+                        <span class="care-text-color">Haha</span>
+
+                    </div>  
+                    <div class="co">
+                        <svg id="poe-comment" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="50" height="50"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g transform="translate(1.462,1.462) scale(0.983,0.983)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g fill="#a8abaf" stroke="#cccccc" stroke-width="3" stroke-linejoin="round"><path d="M147.92,13.76c9.44656,0 17.2,7.75344 17.2,17.2v82.56c0,9.44656 -7.75344,17.2 -17.2,17.2h-77.185c-8.45219,19.90094 -25.18187,27.52 -39.775,27.52c-1.505,-0.05375 -2.80844,-1.08844 -3.19812,-2.53969c-0.38969,-1.45125 0.20156,-2.99656 1.47812,-3.80281c4.54188,-2.72781 6.97406,-6.04687 8.2775,-9.9975c1.06156,-3.21156 1.11531,-7.04125 0.645,-11.18h-14.0825c-9.44656,0 -17.2,-7.75344 -17.2,-17.2v-82.56c0,-9.44656 7.75344,-17.2 17.2,-17.2zM13.76,30.96v82.56c0,5.6975 4.6225,10.32 10.32,10.32h17.2c1.63938,0.02688 3.02344,1.19594 3.3325,2.795c1.10188,6.04688 1.24969,11.98625 -0.5375,17.415c-0.71219,2.17688 -1.98875,4.20594 -3.3325,6.1275c9.93031,-2.53969 19.48438,-9.48687 24.8325,-24.08c0.49719,-1.35719 1.78719,-2.2575 3.225,-2.2575h79.12c5.6975,0 10.32,-4.6225 10.32,-10.32v-82.56c0,-5.6975 -4.6225,-10.32 -10.32,-10.32h-123.84c-5.6975,0 -10.32,4.6225 -10.32,10.32z"></path></g><path d="M0,172v-172h172v172z" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path><g fill="#a8abaf" stroke="none" stroke-width="1" stroke-linejoin="miter"><path d="M24.08,13.76c-9.44656,0 -17.2,7.75344 -17.2,17.2v82.56c0,9.44656 7.75344,17.2 17.2,17.2h14.0825c0.47031,4.13875 0.41656,7.96844 -0.645,11.18c-1.30344,3.95063 -3.73562,7.26969 -8.2775,9.9975c-1.27656,0.80625 -1.86781,2.35156 -1.47812,3.80281c0.38969,1.45125 1.69312,2.48594 3.19812,2.53969c14.59313,0 31.32281,-7.61906 39.775,-27.52h77.185c9.44656,0 17.2,-7.75344 17.2,-17.2v-82.56c0,-9.44656 -7.75344,-17.2 -17.2,-17.2zM24.08,20.64h123.84c5.6975,0 10.32,4.6225 10.32,10.32v82.56c0,5.6975 -4.6225,10.32 -10.32,10.32h-79.12c-1.43781,0 -2.72781,0.90031 -3.225,2.2575c-5.34812,14.59313 -14.90219,21.54031 -24.8325,24.08c1.34375,-1.92156 2.62031,-3.95062 3.3325,-6.1275c1.78719,-5.42875 1.63938,-11.36812 0.5375,-17.415c-0.30906,-1.59906 -1.69312,-2.76812 -3.3325,-2.795h-17.2c-5.6975,0 -10.32,-4.6225 -10.32,-10.32v-82.56c0,-5.6975 4.6225,-10.32 10.32,-10.32z"></path></g><path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path></g></g></svg>
+                        <span class="poe-comment-text">Comment</span>
+                    </div>
+
+
+                    <div class="sh">
+                        <svg id="poe-share" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#b0b3b8"><path d="M99.33,37.84c-1.73344,0.215 -3.02344,1.69313 -3.01,3.44v24.295c-39.60031,1.20938 -60.9525,22.17188 -71.4875,43c-10.68281,21.11031 -11.05906,41.69656 -11.0725,42.355v0.215v0.215c-0.05375,1.89469 1.43781,3.49375 3.3325,3.5475c1.89469,0.05375 3.49375,-1.43781 3.5475,-3.3325v-0.215c0.02688,-0.3225 0.79281,-10.73656 10.6425,-21.8225c9.675,-10.87094 28.55469,-21.83594 65.0375,-22.575v23.7575c0,1.31688 0.7525,2.52625 1.94844,3.10406c1.19594,0.57781 2.60688,0.41656 3.64156,-0.41656l55.04,-44.72c0.81969,-0.65844 1.29,-1.63937 1.29,-2.6875c0,-1.04812 -0.47031,-2.02906 -1.29,-2.6875l-55.04,-44.72c-0.72562,-0.59125 -1.65281,-0.86 -2.58,-0.7525zM103.2,48.4825l46.1175,37.5175l-46.1175,37.5175v-20.3175c0,-1.89469 -1.54531,-3.44 -3.44,-3.44c-40.43344,0 -62.22906,12.42969 -73.6375,25.2625c-0.43,0.48375 -0.67187,0.91375 -1.075,1.3975c1.45125,-4.73 3.35938,-9.7825 5.9125,-14.835c10.03781,-19.83375 29.19969,-39.345 68.8,-39.345c1.89469,0 3.44,-1.54531 3.44,-3.44z"></path></g></g></svg>
+                        <span class="poe-share-text">Share</span>
+
+                    </div>
+                </div>
+                </div>
+
+                <!-- end newsfeed part5 -->
+       
+            </section>
+            <!-- end newsfeed -->
+
+
+
+            <section class="end-newsfeed">
+                <p class="end1">No More posts</p><br>
+                <p class="end2">Add more friends to see more posts in your News Feed.</p>
+                <div class="end-box">
+                   <p class="end-box-text">Find Friends</p>
+                </div>
+
+            </section>
+
+        </section>
+
+
+        <!--end mid center  -->
+
+
+
+
+
+
+        <!-- start chat -->
+        <section class="chat-list">
+
+
+
+           <!-- start part 1 -->
+            <div class="chat-part1">
+              <span class="part1-text1">Contacts</span>
+              <div class="new-room">
+              <svg id="new-room" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv gl3lb2sf hhz5lgdu"><g fill-rule="evenodd" transform="translate(-448 -544)"><path d="M457.25 552.5H455v2.25a.75.75 0 0 1-1.5 0v-2.25h-2.25a.75.75 0 0 1 0-1.5h2.25v-2.25a.75.75 0 0 1 1.5 0V551h2.25a.75.75 0 0 1 0 1.5m6.38-4.435a.62.62 0 0 0-.64.047l-2.49 1.634v-1.394a1.854 1.854 0 0 0-1.852-1.852l-8.796.002a1.854 1.854 0 0 0-1.851 1.852v6.793c0 1.021.83 1.852 1.852 1.852l1.147-.002h7.648a1.854 1.854 0 0 0 1.852-1.851v-1.392l2.457 1.61a.641.641 0 0 0 .673.071.663.663 0 0 0 .37-.601v-6.167c0-.26-.142-.49-.37-.602"></path></g></svg>
+            </div>
+
+            <div class="room-search">
+              <svg id="room-search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 em6zcovv gl3lb2sf hhz5lgdu"><g fill-rule="evenodd" transform="translate(-448 -544)"><g fill-rule="nonzero"><path d="M10.743 2.257a6 6 0 1 1-8.485 8.486 6 6 0 0 1 8.485-8.486zm-1.06 1.06a4.5 4.5 0 1 0-6.365 6.364 4.5 4.5 0 0 0 6.364-6.363z" transform="translate(448 544)"></path><path d="M10.39 8.75a2.94 2.94 0 0 0-.199.432c-.155.417-.23.849-.172 1.284.055.415.232.794.54 1.103a.75.75 0 0 0 1.112-1.004l-.051-.057a.39.39 0 0 1-.114-.24c-.021-.155.014-.356.09-.563.031-.081.06-.145.08-.182l.012-.022a.75.75 0 1 0-1.299-.752z" transform="translate(448 544)"></path><path d="M9.557 11.659c.038-.018.09-.04.15-.064.207-.077.408-.112.562-.092.08.01.143.034.198.077l.041.036a.75.75 0 0 0 1.06-1.06 1.881 1.881 0 0 0-1.103-.54c-.435-.058-.867.018-1.284.175-.189.07-.336.143-.433.2a.75.75 0 0 0 .624 1.356l.066-.027.12-.061z" transform="translate(448 544)"></path><path d="m13.463 15.142-.04-.044-3.574-4.192c-.599-.703.355-1.656 1.058-1.057l4.191 3.574.044.04c.058.059.122.137.182.24.249.425.249.96-.154 1.41l-.057.057c-.45.403-.986.403-1.411.154a1.182 1.182 0 0 1-.24-.182zm.617-.616.444-.444a.31.31 0 0 0-.063-.052c-.093-.055-.263-.055-.35.024l.208.232.207-.206.006.007-.22.257-.026-.024.033-.034.025.027-.257.22-.007-.007zm-.027-.415c-.078.088-.078.257-.023.35a.31.31 0 0 0 .051.063l.205-.204-.233-.209z" transform="translate(448 544)"></path></g></g></svg>
+            </div>
+
+            <div class="room-option">
+              <svg id="room-option" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 p361ku9c cyypbtt7 fwizqjfa"><circle cx="12" cy="12" r="2.5"></circle><circle cx="19.5" cy="12" r="2.5"></circle><circle cx="4.5" cy="12" r="2.5"></circle></svg>
+            </div>
+            </div>
+            <!-- end part 1 -->
+
+
+            <!-- start contacts -->
+
+            <div class="contact1">
+                <div class="con-img1">
+                </div>
+                <span class="con-name1">Ei Chaw Po</span>
+            </div>
+
+            <div class="contact1">
+                <div class="con-img2">
+                </div>
+                <span class="con-name1">Han Thi</span>
+            </div>
+
+
+            <div class="contact1">
+                <div class="con-img3">
+                </div>
+                <span class="con-name1">Sophia Everest</span>
+            </div>
+
+
+            <div class="contact1">
+                <div class="con-img4">
+                </div>
+                <span class="con-name1">Hus Eaint San</span>
+            </div>
+
+
+            <div class="contact1">
+                <div class="con-img5">
+                </div>
+                <span class="con-name1">May Thet Khine</span>
+            </div>
+
+            <div class="contact1">
+                <div class="con-img6">
+                </div>
+                <span class="con-name1">Nansu Yati Soe</span>
+            </div>
+
+            <div class="contact1">
+                <div class="con-img7">
+                </div>
+                <span class="con-name1">Naw Phaw Eh Htar</span>
+            </div>
+
+            <div class="contact1">
+                <div class="con-img8">
+                </div>
+                <span class="con-name1">Nay Chi Oo</span>
+            </div>
+
+            <div class="contact1">
+                <div class="con-img9">
+                </div>
+                <span class="con-name1">Alice Ong</span>
+            </div>
+
+
+            <div class="contact1">
+                <div class="con-img10">
+                </div>
+                <span class="con-name1">Patricia</span>
+            </div>
+
+
+
+            <div class="contact1">
+                <div class="con-img11">
+                </div>
+                <span class="con-name1">Phway Phway</span>
+            </div>
+
+
+
+            <div class="contact1">
+                <div class="con-img12">
+                </div>
+                <span class="con-name1">San Yati Moe Myint</span>
+            </div>
+
+
+
+            <div class="contact1">
+                <div class="con-img13">
+                </div>
+                <span class="con-name1">Thin Zar Wint Kyaw</span>
+            </div>
+
+
+
+            <div class="contact1">
+                <div class="con-img14">
+                </div>
+                <span class="con-name1">Warso Moe Oo</span>
+            </div>
+
+ 
+<div class="group-line"></div>
+
+<span class="group-con">Group conversations</span>
+
+<div class="contact2">
+    <div class="con-img15">
+    </div>
+    <span class="con-name1">MMS NOV 2021</span>
+</div>  
+
+
+<div class="contact3">
+    <div class="con-img16">
+    </div>
+    <span class="con-name1">SWD 10 |</span>
+</div>
+
+<div class="new-message-border">
+
+    <img id="new-message" src="images/new-message.png" alt="">
+    </div>
+    
+    
+
+<div class="contact4">
+<div class="create-group">
+    <svg id="create-group" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 fzdkajry jnigpg78 odw8uiq3" width="1" height="1"><g fill-rule="evenodd" transform="translate(-446 -350)" fill="#E4E6EB"><g fill-rule="nonzero" fill="#E4E6EB"><path d="M95 201.5h13a1 1 0 1 0 0-2H95a1 1 0 1 0 0 2z" transform="translate(354.5 159.5)" fill="#E4E6EB"></path><path d="M102.5 207v-13a1 1 0 1 0-2 0v13a1 1 0 1 0 2 0z" transform="translate(354.5 159.5)" fill="#E4E6EB"></path></g></g></svg>
+
+
+</div>
+<span class="create-gp-text">Create new group</span>
+</div>
+
+
+
+            <!-- end contacts -->
+
+
+
+           
+
+        </section>
+        <!-- end chat -->
+
+
+
+
+
+        </section>
+
+
+
+    </div>
+    <!-- end main body -->
+
+
+
+
+</body>
+</html>
+
+</body>
+</html>
